@@ -1,1091 +1,1091 @@
 {
     "1": {
-        "question": "\ud06c\uae30\uc640 \ubb34\uac8c\uac00 \uac19\uc740 \uc0ac\uacfc\ub97c \ubc14\uad6c\ub2c8\uc5d0 \uac00\ub4dd \ub2f4\uc544 \ubb34\uac8c\ub97c \uc7ac\uc5c8\ub354\ub2c8 52\ud0ac\ub85c\uadf8\ub7a8(\u338f)\uc774\uc5c8\uc2b5\ub2c8\ub2e4. \uc774 \uc911 \uc808\ubc18\uc758 \uc0ac\uacfc\ub97c \ub35c\uc5b4\ub0b8 \ud6c4\uc5d0 \ubc14\uad6c\ub2c8\uc640 \ud568\uaed8 \ubb34\uac8c\ub97c \uc7ac\uc5b4 \ubcf4\ub2c8 28\ud0ac\ub85c\uadf8\ub7a8(\u338f)\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc6d0\ub798 \uc788\ub358 \uc0ac\uacfc\ub9cc\uc758 \ubb34\uac8c\ub294 \uba87 \ud0ac\ub85c\uadf8\ub7a8(\u338f)\uc785\ub2c8\uae4c?",
+        "question": "크기와 무게가 같은 사과를 바구니에 가득 담아 무게를 재었더니 52킬로그램(㎏)이었습니다. 이 중 절반의 사과를 덜어낸 후에 바구니와 함께 무게를 재어 보니 28킬로그램(㎏)이 되었습니다. 원래 있던 사과만의 무게는 몇 킬로그램(㎏)입니까?",
         "level": 3.0,
         "equation_op": "52 28 [OP_SUB] 2 [OP_MUL]",
         "answer": 48.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\ubb3c\uac74\uacfc \ubcf4\uad00\ud568\uc758 \ubb34\uac8c"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "물건과 보관함의 무게"
     },
     "2": {
-        "question": "\uc720\ub098\uc640 \uce5c\uad6c 13\uba85\uc774 \ud55c \uc904\ub85c \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc720\ub098\ub294 \uc67c\ucabd\uc5d0\uc11c 4\ubc88\uc9f8\uc5d0 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc720\ub098\uc758 \uc624\ub978\ucabd\uc5d0 \uc11c \uc788\ub294 \uc0ac\ub78c\uc740 \uc67c\ucabd\uc5d0 \uc11c \uc788\ub294 \uc0ac\ub78c\ubcf4\ub2e4 \uba87 \uba85 \ub354 \ub9ce\uc2b5\ub2c8\uae4c?",
+        "question": "유나와 친구 13명이 한 줄로 서 있습니다. 유나는 왼쪽에서 4번째에 서 있습니다. 유나의 오른쪽에 서 있는 사람은 왼쪽에 서 있는 사람보다 몇 명 더 많습니까?",
         "level": 3.0,
         "equation_op": "13 4 [OP_SUB] 4 [OP_SUB]",
         "answer": 5.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "3": {
-        "question": "1\uc2dc\uac04\uc5d0 95\ud0ac\ub85c\ubbf8\ud130(\u339e) \ub2ec\ub9ac\ub294 \uae30\ucc28\uc640 1\uc2dc\uac04\uc5d0 65\ud0ac\ub85c\ubbf8\ud130(\u339e) \ub2ec\ub9ac\ub294 \uc790\ub3d9\ucc28\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uae30\ucc28\uc640 \uc790\ub3d9\ucc28\uac00 \uac19\uc740 \ube60\ub974\uae30\ub85c 8\uc2dc\uac04 \ub3d9\uc548 \ub2ec\ub838\uc744 \ub54c, \uae30\ucc28\ub294 \uc790\ub3d9\ucc28\ubcf4\ub2e4 \uba87 \ud0ac\ub85c\ubbf8\ud130(\u339e) \ub354 \uac14\uc2b5\ub2c8\uae4c?",
+        "question": "1시간에 95킬로미터(㎞) 달리는 기차와 1시간에 65킬로미터(㎞) 달리는 자동차가 있습니다. 이 기차와 자동차가 같은 빠르기로 8시간 동안 달렸을 때, 기차는 자동차보다 몇 킬로미터(㎞) 더 갔습니까?",
         "level": 3.0,
         "equation_op": "95 65 [OP_SUB] 8 [OP_MUL]",
         "answer": 240.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac70\ub9ac\uc18d\ub825\uc2dc\uac04",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "거리속력시간",
+        "category_small": "기본"
     },
     "4": {
-        "question": "\ud638\uc11d\uc774\ub294 \ubcf4\ub77c\uc0c9 \uc0c9\uc885\uc774\ub97c 138\uc7a5 \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \ud638\uc11d\uc774\uac00 \uac00\uc9c0\uace0 \uc788\ub294 \ub178\ub780\uc0c9 \uc0c9\uc885\uc774\ub294 \ud30c\ub780\uc0c9 \uc0c9\uc885\uc774\ubcf4\ub2e4 119\uc7a5 \ub354 \ub9ce\uace0, \ubcf4\ub77c\uc0c9 \uc0c9\uc885\uc774\ub294 \ub178\ub780\uc0c9 \uc0c9\uc885\uc774\ubcf4\ub2e4 185\uc7a5 \ub354 \uc801\uc2b5\ub2c8\ub2e4. \ud638\uc11d\uc774\uac00 \uac00\uc9c0\uace0 \uc788\ub294 \ubcf4\ub77c\uc0c9, \ub178\ub780\uc0c9, \ud30c\ub780\uc0c9 \uc0c9\uc885\uc774\ub294 \ubaa8\ub450 \uba87 \uc7a5\uc785\ub2c8\uae4c?",
+        "question": "호석이는 보라색 색종이를 138장 가지고 있습니다. 호석이가 가지고 있는 노란색 색종이는 파란색 색종이보다 119장 더 많고, 보라색 색종이는 노란색 색종이보다 185장 더 적습니다. 호석이가 가지고 있는 보라색, 노란색, 파란색 색종이는 모두 몇 장입니까?",
         "level": 3.0,
         "equation_op": "138 138 119 [OP_ADD] [OP_ADD] 138 119 [OP_ADD] 185 [OP_SUB] [OP_ADD]",
         "answer": 467.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc5ec\ub7ec \uac1c\uc758 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "여러 개의 개수가 주어질 때"
     },
     "5": {
-        "question": "\uc815\uad6d\uc774\ub294 \ubcf4\ub77c\uc0c9 \uacf5 3\uac1c, \ucd08\ub85d\uc0c9 \uacf5 2\uac1c\ub97c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uac19\uc740 \uc0c9\uc758 \uacf5\uc740 \uac01\uac01 \uad6c\ubcc4\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4\uace0 \ud560 \ub54c, \uacf5 5\uac1c\ub97c \uc11c\ub85c \ub2e4\ub974\uac8c \ud55c \uc904\ub85c \ub193\ub294 \ubc29\ubc95\uc740 \ubaa8\ub450 \uba87 \uac00\uc9c0\uc785\ub2c8\uae4c?",
+        "question": "정국이는 보라색 공 3개, 초록색 공 2개를 가지고 있습니다. 같은 색의 공은 각각 구별이 되지 않는다고 할 때, 공 5개를 서로 다르게 한 줄로 놓는 방법은 모두 몇 가지입니까?",
         "level": 6.0,
         "equation_op": "3 2 [OP_ADD] 3 [OP_COMB]",
         "answer": 10.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc790\uc5f0\uc5b4-\uad6c\ubcc4"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "자연어-구별"
     },
     "6": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0 479\ub97c \ub354\ud574\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 749\ub97c \ube90\ub354\ub2c8 280\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에 479를 더해야 하는데 잘못하여 749를 뺐더니 280이 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 3.0,
         "equation_op": "280 749 [OP_ADD] 479 [OP_ADD]",
         "answer": 1508.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\ubc14\ub974\uac8c \uacc4\uc0b0"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "바르게 계산"
     },
     "7": {
-        "question": "\ud559\uc0dd\ub4e4\uc774 8\uc904\ub85c \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uadf8\uc911\uc5d0\uc11c 7\uac1c\uc758 \uc904\uc5d0\ub294 6\uba85\uc529 \uc11c \uc788\uace0, \ub098\uba38\uc9c0 1\uc904\uc5d0\ub294 5\uba85\uc774 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \ud559\uc0dd\ub4e4\uc740 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "학생들이 8줄로 서 있습니다. 그중에서 7개의 줄에는 6명씩 서 있고, 나머지 1줄에는 5명이 서 있습니다. 학생들은 모두 몇 명입니까?",
         "level": 3.0,
         "equation_op": "7 6 [OP_MUL] 1 5 [OP_MUL] [OP_ADD]",
         "answer": 47.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\ubcf4\uad00 \uaddc\uce59"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "보관 규칙"
     },
     "8": {
-        "question": "\uc62c\ud574 \uc815\uad6d\uc774\ub294 16\uc0b4\uc774\uace0 \uc5b4\uba38\ub2c8\ub294 46\uc0b4\uc785\ub2c8\ub2e4. \uc5b4\uba38\ub2c8 \ub098\uc774\uac00 \uc815\uad6d\uc774 \ub098\uc774\uc758 4\ubc30\uc600\uc744 \ub54c\ub294 \uba87 \ub144 \uc804\uc785\ub2c8\uae4c?",
+        "question": "올해 정국이는 16살이고 어머니는 46살입니다. 어머니 나이가 정국이 나이의 4배였을 때는 몇 년 전입니까?",
         "level": 5.0,
         "equation_op": "16 4 [OP_MUL] 46 [OP_SUB] 4 1 [OP_SUB] [OP_DIV]",
         "answer": 6.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ub098\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "나이",
+        "category_small": "기본"
     },
     "9": {
-        "question": "7\uba85\uc758 \ud559\uc0dd\uc774 \uc904\ub118\uae30\ub97c \ud558\uace0 \uc788\uace0, \ud6cc\ub77c\ud6c4\ud504\ub97c \ud558\ub294 \ud559\uc0dd \uc218\ub294 \uc904\ub118\uae30\ub97c \ud558\ub294 \ud559\uc0dd \uc218\uc758 5\ubc30\uc785\ub2c8\ub2e4. \ud6cc\ub77c\ud6c4\ud504\ub97c \ud558\ub294 \ud559\uc0dd\uc740 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "7명의 학생이 줄넘기를 하고 있고, 훌라후프를 하는 학생 수는 줄넘기를 하는 학생 수의 5배입니다. 훌라후프를 하는 학생은 몇 명입니까?",
         "level": 2.0,
         "equation_op": "7 5 [OP_MUL]",
         "answer": 35.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
     },
     "10": {
-        "question": "34\uad8c\uc758 \uacf5\ucc45\uc744 \uce5c\uad6c\ub4e4\uc5d0\uac8c 7\uad8c\uc529 \ub098\ub204\uc5b4 \uc8fc\uc5c8\ub354\ub2c8 1\uad8c\uc774 \ubaa8\uc790\ub790\uc2b5\ub2c8\ub2e4. \uacf5\ucc45\uc744 \ubc1b\uc740 \uce5c\uad6c\ub294 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "34권의 공책을 친구들에게 7권씩 나누어 주었더니 1권이 모자랐습니다. 공책을 받은 친구는 모두 몇 명입니까?",
         "level": 4.0,
         "equation_op": "34 1 [OP_ADD] 7 [OP_FDIV]",
         "answer": 5.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\ub098\uba38\uc9c0"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "나머지"
     },
     "11": {
-        "question": "\ud55c \ubaa8\uc11c\ub9ac\uc758 \uae38\uc774\uac00 3\u339d\uc778 \uc815\uc721\uba74\uccb4\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uac01 \uaf2d\uc9d3\uc810\uc5d0\uc11c \ud55c \ubaa8\uc11c\ub9ac\uc758 \uae38\uc774\uac00 1\u339d\uc778 \uc815\uc721\uba74\uccb4\ub97c \uc798\ub790\uc744 \ub54c, \ub0a8\uc740 \ubd80\ubd84\uc758 \ubd80\ud53c\ub294 \uba87 \uc138\uc81c\uacf1\uc13c\ud2f0\ubbf8\ud130\uc785\ub2c8\uae4c?",
+        "question": "한 모서리의 길이가 3㎝인 정육면체가 있습니다. 각 꼭짓점에서 한 모서리의 길이가 1㎝인 정육면체를 잘랐을 때, 남은 부분의 부피는 몇 세제곱센티미터입니까?",
         "level": 6.0,
         "equation_op": "3 3 [OP_POW] 1 3 [OP_POW] 8 [OP_MUL] [OP_SUB]",
         "answer": 19.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ubd80\ud53c",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "부피",
+        "category_small": "기본"
     },
     "12": {
-        "question": "63\uba85\uc774 \uc790\ub3d9\ucc28 9\ub300\uc5d0 \ub611\uac19\uc774 \ub098\ub204\uc5b4 \ud0d4\uc2b5\ub2c8\ub2e4. \uc790\ub3d9\ucc28 \ud55c \ub300\uc5d0\ub294 \uba87 \uba85\uc774 \ud0d4\uc2b5\ub2c8\uae4c?",
+        "question": "63명이 자동차 9대에 똑같이 나누어 탔습니다. 자동차 한 대에는 몇 명이 탔습니까?",
         "level": 2.0,
         "equation_op": "63 9 [OP_DIV]",
         "answer": 7.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "기본"
     },
     "13": {
-        "question": "\uc0ac\ud0d5\uc744 \ubbfc\uc601\uc774\ub294 9\uac1c, \ud0dc\ud615\uc774\ub294 3\uac1c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \ubbfc\uc601\uc774\uc640 \ud0dc\ud615\uc774\uac00 \uac00\uc9c0\uace0 \uc788\ub294 \uc0ac\ud0d5\uc758 \uc218\uac00 \uac19\uc544\uc9c0\ub824\uba74 \ubbfc\uc601\uc774\ub294 \ud0dc\ud615\uc774\uc5d0\uac8c \uc0ac\ud0d5\uc744 \uba87 \uac1c \uc8fc\uc5b4\uc57c \ud569\ub2c8\uae4c?",
+        "question": "사탕을 민영이는 9개, 태형이는 3개 가지고 있습니다. 민영이와 태형이가 가지고 있는 사탕의 수가 같아지려면 민영이는 태형이에게 사탕을 몇 개 주어야 합니까?",
         "level": 1.0,
         "equation_op": "9 3 [OP_SUB] 2 [OP_DIV]",
         "answer": 3.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\ub450 \uac1c \uc8fc\uace0 \ubc1b\uae30"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "두 개 주고 받기"
     },
     "14": {
-        "question": "\uad6c\uc2ac\uc744 \ubbfc\uc815\uc774\ub294 6\uac1c, \uc8fc\ud658\uc774\ub294 7\uac1c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uad6c\uc2ac\uc744 \ubbfc\uc815\uc774\ub294 \uc120\ud638\ubcf4\ub2e4 1\uac1c \ub354 \ub9ce\uc774 \uac00\uc9c0\uace0 \uc788\uace0, \uc9c4\uc601\uc774\ub294 \uc8fc\ud658\uc774\ubcf4\ub2e4 3\uac1c \ub354 \uc801\uac8c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uad6c\uc2ac\uc744 \uac00\uc7a5 \uc801\uac8c \uac00\uc9c0\uace0 \uc788\ub294 \uc0ac\ub78c\uc740 \ub204\uad6c\uc785\ub2c8\uae4c?",
+        "question": "구슬을 민정이는 6개, 주환이는 7개 가지고 있습니다. 구슬을 민정이는 선호보다 1개 더 많이 가지고 있고, 진영이는 주환이보다 3개 더 적게 가지고 있습니다. 구슬을 가장 적게 가지고 있는 사람은 누구입니까?",
         "level": 1.0,
-        "equation_op": "[OP_LIST_SOL] \ubbfc\uc815 \uc8fc\ud658 \uc120\ud638 \uc9c4\uc601 [OP_LIST_EOL] [OP_LIST_SOL] 6 7 6 1 [OP_SUB] 7 3 [OP_SUB] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
-        "answer": "\uc9c4\uc601",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 민정 주환 선호 진영 [OP_LIST_EOL] [OP_LIST_SOL] 6 7 6 1 [OP_SUB] 7 3 [OP_SUB] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "진영",
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "15": {
-        "question": "10\ubcf4\ub2e4 \uc791\uc740 \uc790\uc5f0\uc218 \uc911\uc5d0\uc11c \uc11c\ub85c \ub2e4\ub978 \uc138 \uc218\ub97c \ub3d9\uc2dc\uc5d0 \ubf51\uc73c\ub824\uace0 \ud569\ub2c8\ub2e4. \uc138 \uc218\uc758 \ud569\uc774 14\uc778 \uacbd\uc6b0\uc758 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "10보다 작은 자연수 중에서 서로 다른 세 수를 동시에 뽑으려고 합니다. 세 수의 합이 14인 경우의 수를 구하시오.",
         "level": 5.0,
         "equation_op": "1 10 1 [OP_SUB] 1 [OP_LIST_ARANGE] 3 [OP_LIST_GET_PERM] [OP_LIST_NUM2SUM] 14 [OP_LIST_LESS_EQUAL] 14 [OP_LIST_MORE_EQUAL] [OP_LIST_LEN]",
         "answer": 48.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\ud569"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "합"
     },
     "16": {
-        "question": "98, 111, 108, 93, 89\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uadf8\uc911\uc5d0\uc11c \uac00\uc7a5 \ud070 \uc218\uc640 \uac00\uc7a5 \uc791\uc740 \uc218\uc758 \ud569\uc740 \uc5bc\ub9c8\uc785\ub2c8\uae4c?",
+        "question": "98, 111, 108, 93, 89가 있습니다. 그중에서 가장 큰 수와 가장 작은 수의 합은 얼마입니까?",
         "level": 2.0,
         "equation_op": "[OP_LIST_SOL] 98 111 108 93 89 [OP_LIST_EOL] 1 [OP_LIST_MAX] 1 [OP_LIST_MIN] [OP_ADD]",
         "answer": 200.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "기본"
     },
     "17": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 46\uc744 \ube7c\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 59\ub97c \ube90\ub354\ub2c8 43\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 46을 빼야 하는데 잘못하여 59를 뺐더니 43이 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 2.0,
         "equation_op": "43 59 [OP_ADD] 46 [OP_SUB]",
         "answer": 56.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\ubc14\ub974\uac8c \uacc4\uc0b0"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "바르게 계산"
     },
     "18": {
-        "question": "4\uac1c\uc758 \uc5f0\uc18d\ub41c \ud640\uc218\uc758 \ud569\uc774 112\uc785\ub2c8\ub2e4. \uc774 4\uac1c\uc758 \uc218 \uc911\uc5d0\uc11c 2\ubc88\uc9f8\ub85c \uc791\uc740 \uc218\ub97c \uc4f0\uc2dc\uc624.",
+        "question": "4개의 연속된 홀수의 합이 112입니다. 이 4개의 수 중에서 2번째로 작은 수를 쓰시오.",
         "level": 6.0,
         "equation_op": "112 4 [OP_DIV] 4 2 [OP_FDIV] 2 [OP_MUL] [OP_SUB] 1 [OP_ADD] 2 [OP_ADD]",
         "answer": 27.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc5f0\uc18d\ub41c \uc218"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "연속된 수"
     },
     "19": {
-        "question": "\ub450 \uc218 A, B\uac00 \uc788\uc2b5\ub2c8\ub2e4. A\ub294 40\uc744 2\ubc30 \ud55c \uc218\ubcf4\ub2e4 15 \uc791\uc740 \uc218\uc785\ub2c8\ub2e4. B\ub294 100\uc744 4\ub85c \ub098\ub208 \ubaab\ubcf4\ub2e4 42 \ud070 \uc218\uc785\ub2c8\ub2e4. A, B \uc911 \ub354 \ud070 \uc218\ub294 \uc5b4\ub290 \uac83\uc785\ub2c8\uae4c?",
+        "question": "두 수 A, B가 있습니다. A는 40을 2배 한 수보다 15 작은 수입니다. B는 100을 4로 나눈 몫보다 42 큰 수입니다. A, B 중 더 큰 수는 어느 것입니까?",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] A B [OP_LIST_EOL] [OP_LIST_SOL] 40 2 [OP_MUL] 15 [OP_SUB] 100 4 [OP_DIV] 42 [OP_ADD] [OP_LIST_EOL] 1 [OP_LIST_MAX] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
         "answer": "B",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "20": {
-        "question": "1, 3, 5, 8 \uc911\uc5d0\uc11c \uc11c\ub85c \ub2e4\ub978 \uc22b\uc790 2\uac1c\ub97c \ubf51\uc544 \ub9cc\ub4e4 \uc218 \uc788\ub294 \uac00\uc7a5 \uc791\uc740 \ub450 \uc790\ub9ac \uc218\uc5d0 \uc5b4\ub5a4 \uc218\ub97c \ub354\ud558\uba74 88\uc774 \ub429\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "1, 3, 5, 8 중에서 서로 다른 숫자 2개를 뽑아 만들 수 있는 가장 작은 두 자리 수에 어떤 수를 더하면 88이 됩니다. 어떤 수를 구하시오.",
         "level": 2.0,
         "equation_op": "[OP_LIST_SOL] 1 3 5 8 [OP_LIST_EOL] 2 [OP_LIST_GET_PERM] 1 [OP_LIST_MIN] 88 [OP_SUB]",
         "answer": 75.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc22b\uc790 \ub9cc\ub4e4\uae30"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "숫자 만들기"
     },
     "21": {
-        "question": "\uc9c1\uc0ac\uac01\ud615 \ubaa8\uc591\uc778 \ubaa9\uc7a5 \uc6b8\ud0c0\ub9ac\uc758 \ub458\ub808\ub294 30\ubbf8\ud130(m)\uc785\ub2c8\ub2e4. \uc6b8\ud0c0\ub9ac\uc758 \uac00\ub85c \uae38\uc774\ub294 \uc138\ub85c \uae38\uc774\uc758 2\ubc30\ub77c\uace0 \ud569\ub2c8\ub2e4. \uc6b8\ud0c0\ub9ac\uc758 \uac00\ub85c \uae38\uc774\ub294 \uba87 \ubbf8\ud130(m)\uc785\ub2c8\uae4c?",
+        "question": "직사각형 모양인 목장 울타리의 둘레는 30미터(m)입니다. 울타리의 가로 길이는 세로 길이의 2배라고 합니다. 울타리의 가로 길이는 몇 미터(m)입니까?",
         "level": 3.0,
         "equation_op": "30 2 2 1 [OP_ADD] [OP_MUL] [OP_DIV] 2 [OP_MUL]",
         "answer": 10.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\uae38\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "길이",
+        "category_small": "기본"
     },
     "22": {
-        "question": "\uc11c\ub85c \ub2e4\ub978 \ub124 \uc218 A, B, C, D\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uc138 \uc790\ub9ac \uc218\ub07c\ub9ac\uc758 \ub367\uc148\uc2dd 7A5+B7C=D38\uc5d0\uc11c D\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "서로 다른 네 수 A, B, C, D가 있습니다. 세 자리 수끼리의 덧셈식 7A5+B7C=D38에서 D를 구하시오.",
         "level": 3.0,
         "equation_op": "7A5+B7C=D38 D [OP_DIGIT_UNK_SOLVER]",
         "answer": 9.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\ubc29\uc815\uc2dd \uc81c\uacf5",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-2",
+        "category_big": "방정식 제공",
+        "category_small": "기본"
     },
     "23": {
-        "question": "\uc815\uad6d\uc774\uc758 \uad6d\uc5b4, \uc218\ud559, \uacfc\ud559\uc758 \ud3c9\uade0 \uc810\uc218\ub294 92\uc810\uc785\ub2c8\ub2e4. \uc815\uad6d\uc774\uac00 \uc601\uc5b4 \uc2dc\ud5d8\uc744 \ubcf8 \ud6c4 \ud3c9\uade0 \uc810\uc218\uac00 2\uc810 \uc62c\ub790\ub2e4\uace0 \ud560 \ub54c, \uc815\uad6d\uc774\uc758 \uc601\uc5b4 \uc810\uc218\ub294 \uba87 \uc810\uc785\ub2c8\uae4c?",
+        "question": "정국이의 국어, 수학, 과학의 평균 점수는 92점입니다. 정국이가 영어 시험을 본 후 평균 점수가 2점 올랐다고 할 때, 정국이의 영어 점수는 몇 점입니까?",
         "level": 5.0,
         "equation_op": "92 2 [OP_ADD] 4 [OP_MUL] 92 3 [OP_MUL] [OP_SUB]",
         "answer": 100.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc810\uc218"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "점수"
     },
     "24": {
-        "question": "1, 2, 6, 7, 8 \uc911 \uc11c\ub85c \ub2e4\ub978 3\uac1c\uc758 \uc22b\uc790\ub97c \ubf51\uc544 \ub9cc\ub4e4 \uc218 \uc788\ub294 \uc138 \uc790\ub9ac \uc218 \uc911 \uac00\uc7a5 \ud070 \uc218\uc5d0\uc11c \uac00\uc7a5 \uc791\uc740 \uc218\ub97c \ube80 \uac12\uc740 \uc5bc\ub9c8\uc785\ub2c8\uae4c?",
+        "question": "1, 2, 6, 7, 8 중 서로 다른 3개의 숫자를 뽑아 만들 수 있는 세 자리 수 중 가장 큰 수에서 가장 작은 수를 뺀 값은 얼마입니까?",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 1 2 6 7 8 [OP_LIST_EOL] 3 [OP_LIST_GET_PERM] 1 [OP_LIST_MAX] 1 [OP_LIST_MIN] [OP_SUB]",
         "answer": 750.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc22b\uc790 \ub9cc\ub4e4\uae30"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "숫자 만들기"
     },
     "25": {
-        "question": "\ud30c\ub780\uc0c9 \uc0c9\uc5f0\ud544 5\uc790\ub8e8\uc640 \ubcf4\ub77c\uc0c9 \uc0c9\uc5f0\ud544 1\uc790\ub8e8\ub97c \uc11c\ub85c \ub2e4\ub974\uac8c \ud55c \uc904\ub85c \ub193\ub294 \ubc29\ubc95\uc740 \ubaa8\ub450 \uba87 \uac00\uc9c0\uc785\ub2c8\uae4c?",
+        "question": "파란색 색연필 5자루와 보라색 색연필 1자루를 서로 다르게 한 줄로 놓는 방법은 모두 몇 가지입니까?",
         "level": 5.0,
         "equation_op": "5 1 [OP_ADD] 1 [OP_COMB]",
         "answer": 6.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "조합",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "26": {
-        "question": "\uc5b4\ub5a4 \uc218\ub97c 23\uc73c\ub85c \ub098\ub208 \uac12\uc5d0\uc11c 67\uc744 \ube80 \ud6c4 2\ub97c \uacf1\ud55c \uac12\uc774 102\uc785\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수를 23으로 나눈 값에서 67을 뺀 후 2를 곱한 값이 102입니다. 어떤 수를 구하시오.",
         "level": 4.0,
         "equation_op": "102 2 [OP_DIV] 67 [OP_ADD] 23 [OP_MUL]",
         "answer": 2714.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-3",
+        "category_big": "연산",
+        "category_small": "기본"
     },
     "27": {
-        "question": "\ubc18\uc9c0\ub984\uc774 10\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778 \uc6d0 \uc548\uc5d0 \uac00\uc7a5 \ud070 \ub9c8\ub984\ubaa8\ub97c \uadf8\ub9b0 \ub2e4\uc74c, \ub9c8\ub984\ubaa8\uc758 \ub124 \ubcc0\uc758 \ud55c\uac00\uc6b4\ub370\ub97c \ubaa8\ub450 \uc774\uc5b4 \uc791\uc740 \ub9c8\ub984\ubaa8\ub97c \uadf8\ub838\uc2b5\ub2c8\ub2e4. \uc791\uc740 \ub9c8\ub984\ubaa8\uc758 \ub113\uc774\ub294 \uba87 \uc81c\uacf1\uc13c\ud2f0\ubbf8\ud130\uc785\ub2c8\uae4c?",
+        "question": "반지름이 10센티미터(㎝)인 원 안에 가장 큰 마름모를 그린 다음, 마름모의 네 변의 한가운데를 모두 이어 작은 마름모를 그렸습니다. 작은 마름모의 넓이는 몇 제곱센티미터입니까?",
         "level": 5.0,
         "equation_op": "10 2 [OP_MUL] 2 [OP_POW] 2 [OP_DIV] 2 [OP_DIV]",
         "answer": 100.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ub113\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "넓이",
+        "category_small": "기본"
     },
     "28": {
-        "question": "\uc717\ubcc0\uc774 10\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc774\uace0, \uc544\ub7ab\ubcc0 \uae38\uc774\ub294 \uc717\ubcc0 \uae38\uc774\uc758 2\ubc30\uc778 \uc0ac\ub2e4\ub9ac\uaf34\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uc0ac\ub2e4\ub9ac\uaf34\uc758 \ub192\uc774\uac00 5\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc77c \ub54c \ub113\uc774\ub294 \uba87 \uc81c\uacf1\uc13c\ud2f0\ubbf8\ud130\uc785\ub2c8\uae4c?",
+        "question": "윗변이 10센티미터(㎝)이고, 아랫변 길이는 윗변 길이의 2배인 사다리꼴이 있습니다. 이 사다리꼴의 높이가 5센티미터(㎝)일 때 넓이는 몇 제곱센티미터입니까?",
         "level": 5.0,
         "equation_op": "10 10 2 [OP_MUL] [OP_ADD] 5 [OP_MUL] 2 [OP_DIV]",
         "answer": 75.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ub113\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "넓이",
+        "category_small": "기본"
     },
     "29": {
-        "question": "7\ub144 \uc804\uc5d0 \uc544\ubc84\uc9c0 \ub098\uc774\ub294 \uc544\ub4e4 \ub098\uc774\uc758 3\ubc30\uc600\uc2b5\ub2c8\ub2e4. \uc62c\ud574\ubd80\ud130 8\ub144 \ud6c4\uc5d0 \uc544\ubc84\uc9c0\uc640 \uc544\ub4e4\uc758 \ub098\uc774 \ud569\uc740 74\uc0b4\uc774 \ub429\ub2c8\ub2e4. 8\ub144 \ud6c4\uc758 \uc544\ubc84\uc9c0 \ub098\uc774\ub294 \uba87 \uc0b4\uc785\ub2c8\uae4c?",
+        "question": "7년 전에 아버지 나이는 아들 나이의 3배였습니다. 올해부터 8년 후에 아버지와 아들의 나이 합은 74살이 됩니다. 8년 후의 아버지 나이는 몇 살입니까?",
         "level": 6.0,
         "equation_op": "74 8 2 [OP_MUL] [OP_SUB] 7 2 [OP_MUL] [OP_SUB] 3 1 [OP_ADD] [OP_FDIV] 3 [OP_MUL] 7 [OP_ADD] 8 [OP_ADD]",
         "answer": 48.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ub098\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "나이",
+        "category_small": "기본"
     },
     "30": {
-        "question": "\uc11c\ub85c \ub2e4\ub978 \ub124 \uc218 A, B, C, D\uac00 \uc788\uc2b5\ub2c8\ub2e4. \ub124 \uc790\ub9ac \uc218\ub07c\ub9ac\uc758 \ub367\uc148\uc2dd ABCD+ABCD=7314\uc5d0\uc11c ABCD\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "서로 다른 네 수 A, B, C, D가 있습니다. 네 자리 수끼리의 덧셈식 ABCD+ABCD=7314에서 ABCD를 구하시오.",
         "level": 4.0,
         "equation_op": "[OP_LIST_SOL] ABCD+ABCD=7314 A [OP_DIGIT_UNK_SOLVER] ABCD+ABCD=7314 B [OP_DIGIT_UNK_SOLVER] ABCD+ABCD=7314 C [OP_DIGIT_UNK_SOLVER] ABCD+ABCD=7314 D [OP_DIGIT_UNK_SOLVER] [OP_LIST_EOL] [OP_LIST2NUM]",
         "answer": 3657.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\ubc29\uc815\uc2dd \uc81c\uacf5",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-2",
+        "category_big": "방정식 제공",
+        "category_small": "기본"
     },
     "31": {
-        "question": "\ub9c8\ud2b8\uc5d0 \uc0ac\uacfc\uac00 24\uac1c \uc788\uc2b5\ub2c8\ub2e4. \uade4\uc758 \uc218\ub294 \uc0ac\uacfc \uc218\uc758 6\ubc30\uc774\uace0, \uac10\uc740 8\uac1c \uc788\uc2b5\ub2c8\ub2e4. \uade4\uc758 \uc218\ub294 \uac10\uc758 \uc218\uc758 \uba87 \ubc30\uc785\ub2c8\uae4c?",
+        "question": "마트에 사과가 24개 있습니다. 귤의 수는 사과 수의 6배이고, 감은 8개 있습니다. 귤의 수는 감의 수의 몇 배입니까?",
         "level": 3.0,
         "equation_op": "24 6 [OP_MUL] 8 [OP_DIV]",
         "answer": 18.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc804\uccb4 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "전체 개수가 주어질 때"
     },
     "32": {
-        "question": "\ub124 \uc790\ub9ac \uc218 6A42\ub97c \ubc31\uc758 \uc790\ub9ac\uc5d0\uc11c \ubc18\uc62c\ub9bc\ud558\uba74 6000\uc774 \ub429\ub2c8\ub2e4. 0\ubd80\ud130 9\uae4c\uc9c0\uc758 \uc22b\uc790 \uc911 A\uc5d0 \uc4f8 \uc218 \uc788\ub294 \uc22b\uc790\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "네 자리 수 6A42를 백의 자리에서 반올림하면 6000이 됩니다. 0부터 9까지의 숫자 중 A에 쓸 수 있는 숫자는 모두 몇 개입니까?",
         "level": 5.0,
         "equation_op": "6A42 [OP_GEN_POSSIBLE_LIST] 6500 [OP_LIST_MORE_EQUAL] 6A42 A [OP_LIST_FIND_UNK] [OP_LIST_LEN]",
         "answer": 5.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\ubbf8\uc9c0\uc218 \uc790\ub9ac\uc218",
-        "category_small": "\ubc18\uc62c\ub9bc"
+        "qtype": "수찾기-2",
+        "category_big": "미지수 자리수",
+        "category_small": "반올림"
     },
     "33": {
-        "question": "\uc0ac\uacfc, \ubc30, \ucc38\uc678, \uac10, \uc218\ubc15\uc774 1\uac1c\uc529 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uc911 2\uac00\uc9c0\ub97c \uc0ac\ub294 \ubc29\ubc95\uc740 \ubaa8\ub450 \uba87 \uac00\uc9c0\uc785\ub2c8\uae4c?",
+        "question": "사과, 배, 참외, 감, 수박이 1개씩 있습니다. 이 중 2가지를 사는 방법은 모두 몇 가지입니까?",
         "level": 6.0,
-        "equation_op": "[OP_LIST_SOL] \uc0ac\uacfc \ubc30 \ucc38\uc678 \uac10 \uc218\ubc15 [OP_LIST_EOL] [OP_LIST_LEN] 2 [OP_COMB]",
+        "equation_op": "[OP_LIST_SOL] 사과 배 참외 감 수박 [OP_LIST_EOL] [OP_LIST_LEN] 2 [OP_COMB]",
         "answer": 10.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc790\uc5f0\uc5b4"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "자연어"
     },
     "34": {
-        "question": "\uc815\uad6d\uc774\ub294 \uc724\uae30\ubcf4\ub2e4 \ud0a4\uac00 \ud07d\ub2c8\ub2e4. \ub0a8\uc900\uc774\ub294 \uc815\uad6d\uc774\ubcf4\ub2e4 \ud0a4\uac00 \ud06c\uace0 \uc720\ub098\ubcf4\ub2e4 \ud0a4\uac00 \uc791\uc2b5\ub2c8\ub2e4. 4\uba85 \uc911 \ud0a4\uac00 \uac00\uc7a5 \uc791\uc740 \uc0ac\ub78c\uc740 \ub204\uad6c\uc785\ub2c8\uae4c?",
+        "question": "정국이는 윤기보다 키가 큽니다. 남준이는 정국이보다 키가 크고 유나보다 키가 작습니다. 4명 중 키가 가장 작은 사람은 누구입니까?",
         "level": 4.0,
-        "equation_op": "[OP_LIST_SOL] \uc815\uad6d \uc724\uae30 \ub0a8\uc900 \uc720\ub098 [OP_LIST_EOL] [OP_LIST_SOL] \uc815\uad6d \uc724\uae30 > \ub0a8\uc900 \uc815\uad6d > \ub0a8\uc900 \uc720\ub098 < [OP_LIST_EOL] [OP_LIST_COND_MAX_MIN] 2 [OP_LIST_GET]",
-        "answer": "\uc724\uae30",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 정국 윤기 남준 유나 [OP_LIST_EOL] [OP_LIST_SOL] 정국 윤기 > 남준 정국 > 남준 유나 < [OP_LIST_EOL] [OP_LIST_COND_MAX_MIN] 2 [OP_LIST_GET]",
+        "answer": "윤기",
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "35": {
-        "question": "\uacf5\ucc45\uc744 18\uac1c \ubc18\uc5d0 6\uad8c\uc529 \ub098\ub204\uc5b4 \uc8fc\uc5c8\ub354\ub2c8 \uacf5\ucc45\uc774 \ub0a8\uc558\uace0, 7\uad8c\uc529 \ub098\ub204\uc5b4 \uc8fc\uc5c8\ub354\ub2c8 \ubaa8\uc790\ub790\uc2b5\ub2c8\ub2e4. \uacf5\ucc45\uc740 \ucd5c\ub300 \uba87 \uad8c \uc788\uc2b5\ub2c8\uae4c?",
+        "question": "공책을 18개 반에 6권씩 나누어 주었더니 공책이 남았고, 7권씩 나누어 주었더니 모자랐습니다. 공책은 최대 몇 권 있습니까?",
         "level": 4.0,
         "equation_op": "18 7 [OP_MUL] 1 [OP_SUB]",
         "answer": 125.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\ub098\uba38\uc9c0-\ubcf5\ud569"
+        "qtype": "수찾기-1",
+        "category_big": "분배",
+        "category_small": "나머지-복합"
     },
     "36": {
-        "question": "\uc720\uc815\uc774\ub294 \uac00\uc9c0\uace0 \uc788\ub358 \uc0ac\ud0d5 \uc911\uc5d0\uc11c \uc5b8\ub2c8\uc5d0\uac8c 7\uac1c\ub97c \uc8fc\uace0 \ub3d9\uc0dd\uc5d0\uac8c 6\uac1c\ub97c \uc8fc\uc5c8\ub354\ub2c8 15\uac1c\uac00 \ub0a8\uc558\uc2b5\ub2c8\ub2e4. \ucc98\uc74c\uc5d0 \uc720\uc815\uc774\uac00 \uac00\uc9c0\uace0 \uc788\ub358 \uc0ac\ud0d5\uc740 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "유정이는 가지고 있던 사탕 중에서 언니에게 7개를 주고 동생에게 6개를 주었더니 15개가 남았습니다. 처음에 유정이가 가지고 있던 사탕은 몇 개입니까?",
         "level": 2.0,
         "equation_op": "15 6 [OP_ADD] 7 [OP_ADD]",
         "answer": 28.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "기본"
     },
     "37": {
-        "question": "\uc815\uad6d\uc774\ub294 \uc6b0\uc720\ub97c 1.3\ub9ac\ud130(\u2113) \ub9c8\uc168\uc2b5\ub2c8\ub2e4. \uc11d\uc9c4\uc774\ub294 11/10\ub9ac\ud130(\u2113) \ub9c8\uc168\uace0, \uc724\uae30\ub294 7/5\ub9ac\ud130(\u2113) \ub9c8\uc168\uc2b5\ub2c8\ub2e4. \uc6b0\uc720\ub97c \uac00\uc7a5 \uc801\uac8c \ub9c8\uc2e0 \uc0ac\ub78c\uc740 \ub204\uad6c\uc785\ub2c8\uae4c?",
+        "question": "정국이는 우유를 1.3리터(ℓ) 마셨습니다. 석진이는 11/10리터(ℓ) 마셨고, 윤기는 7/5리터(ℓ) 마셨습니다. 우유를 가장 적게 마신 사람은 누구입니까?",
         "level": 3.0,
-        "equation_op": "[OP_LIST_SOL] \uc815\uad6d \uc11d\uc9c4 \uc724\uae30 [OP_LIST_EOL] [OP_LIST_SOL] 1.3 11 10 [OP_DIV] 7 5 [OP_DIV] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
-        "answer": "\uc11d\uc9c4",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 정국 석진 윤기 [OP_LIST_EOL] [OP_LIST_SOL] 1.3 11 10 [OP_DIV] 7 5 [OP_DIV] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "석진",
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "38": {
-        "question": "\uc138 \uac01\ubfd4 (\uac00), (\ub098), (\ub2e4)\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uc138 \uac01\ubfd4\uc758 \uaf2d\uc9d3\uc810\uc758 \uc218\uc758 \ud569\uc774 40\uac1c\uc77c \ub54c \uc138 \uac01\ubfd4\uc758 \ubaa8\uc11c\ub9ac\uc758 \uc218\uc758 \ud569\uc740 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "세 각뿔 (가), (나), (다)가 있습니다. 세 각뿔의 꼭짓점의 수의 합이 40개일 때 세 각뿔의 모서리의 수의 합은 몇 개입니까?",
         "level": 6.0,
         "equation_op": "40 3 [OP_SUB] 2 [OP_MUL]",
         "answer": 74.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ub3c4\ud615\uc758 \ud2b9\uc131",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "도형의 특성",
+        "category_small": "기본"
     },
     "39": {
-        "question": "\uc11d\uc9c4\uc774\ub294 \uad6d\uc5b4 \ubb38\uc81c 12\uac1c\ub97c \ud47c \ud6c4\uc5d0 7\uac1c\ub97c \ub354 \ud480\uc5c8\uc2b5\ub2c8\ub2e4. \uc11d\uc9c4\uc774\ub294 \uad6d\uc5b4 \ubb38\uc81c\ub97c \ubaa8\ub450 \uba87 \uac1c \ud480\uc5c8\uc2b5\ub2c8\uae4c?",
+        "question": "석진이는 국어 문제 12개를 푼 후에 7개를 더 풀었습니다. 석진이는 국어 문제를 모두 몇 개 풀었습니까?",
         "level": 2.0,
         "equation_op": "12 7 [OP_ADD]",
         "answer": 19.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
     },
     "40": {
-        "question": "\ub9c8\ud2b8\uc5d0 \uc8fc\uc2a4\uac00 \uc77c\uacf1 \uc0c1\uc790 \uc788\uc2b5\ub2c8\ub2e4. \ud55c \uc0c1\uc790\uc5d0\ub294 \uc8fc\uc2a4\uac00 6\ubcd1\uc529 \ub4e4\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uc190\ub2d8\uc774 \uc8fc\uc2a4 \uc138 \uc0c1\uc790\ub97c \uc0c0\ub2e4\uba74, \ub9c8\ud2b8\uc5d0 \ub0a8\uc740 \uc8fc\uc2a4\ub294 \ubaa8\ub450 \uba87 \ubcd1\uc778\uc9c0 \uad6c\ud558\uc2dc\uc624.",
+        "question": "마트에 주스가 일곱 상자 있습니다. 한 상자에는 주스가 6병씩 들어 있습니다. 손님이 주스 세 상자를 샀다면, 마트에 남은 주스는 모두 몇 병인지 구하시오.",
         "level": 3.0,
         "equation_op": "7 3 [OP_SUB] 6 [OP_MUL]",
         "answer": 24.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "기본"
     },
     "41": {
-        "question": "\uc5b4\ub5a4 \uc218\ub294 20\ubcf4\ub2e4 \uc791\uc9c0\ub9cc 2\uc758 \ubc30\uc218\ub294 \uc544\ub2d9\ub2c8\ub2e4. 16, 18, 19, 21 \uc911 \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수는 20보다 작지만 2의 배수는 아닙니다. 16, 18, 19, 21 중 어떤 수를 구하시오.",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 16 18 19 21 [OP_LIST_EOL] 2 [OP_LIST_DIVISIBLE] [OP_SET_DIFFERENCE] 20 [OP_LIST_LESS] 1 [OP_LIST_GET]",
         "answer": 19.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\ubc94\uc704",
-        "category_small": "\uc5b4\ub5a4 \uc218"
+        "qtype": "수찾기-1",
+        "category_big": "범위",
+        "category_small": "어떤 수"
     },
     "42": {
-        "question": "\ubc11\uba74\uc758 \uac00\ub85c\uac00 4\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc774\uace0, \uc138\ub85c\uac00 \uac00\ub85c\ubcf4\ub2e4 6\uc13c\ud2f0\ubbf8\ud130(\u339d) \uae38\uace0, \ub192\uc774\uac00 \uc138\ub85c\ubcf4\ub2e4 5\uc13c\ud2f0\ubbf8\ud130(\u339d) \uae34 \uc9c1\uc721\uba74\uccb4\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uc9c1\uc721\uba74\uccb4\uc758 \uac89\ub113\uc774\ub294 \uba87 \uc81c\uacf1\uc13c\ud2f0\ubbf8\ud130\uc785\ub2c8\uae4c?",
+        "question": "밑면의 가로가 4센티미터(㎝)이고, 세로가 가로보다 6센티미터(㎝) 길고, 높이가 세로보다 5센티미터(㎝) 긴 직육면체가 있습니다. 이 직육면체의 겉넓이는 몇 제곱센티미터입니까?",
         "level": 6.0,
         "equation_op": "4 4 6 [OP_ADD] [OP_MUL] 4 6 [OP_ADD] 5 [OP_ADD] [OP_MUL]",
         "answer": 600.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\uac89\ub113\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "겉넓이",
+        "category_small": "기본"
     },
     "43": {
-        "question": "\uac01\uac01\uc758 \ud0a4\uac00 \ub2e4\ub978 \uc720\ub098\uc640 \uce5c\uad6c\ub4e4\uc740 \ud0a4\uac00 \uc791\uc740 \uc0ac\ub78c\ubd80\ud130 \uc21c\uc11c\ub300\ub85c \ud55c \uc904\ub85c \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc720\ub098\ub294 \ud0a4\uac00 \uc791\uc740 \ucabd\uc5d0\uc11c 4\ubc88\uc9f8\uc774\uace0, \ud070 \ucabd\uc5d0\uc11c 6\ubc88\uc9f8\uc785\ub2c8\ub2e4. \uc904\uc744 \uc11c \uc788\ub294 \uc0ac\ub78c\uc740 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "각각의 키가 다른 유나와 친구들은 키가 작은 사람부터 순서대로 한 줄로 서 있습니다. 유나는 키가 작은 쪽에서 4번째이고, 큰 쪽에서 6번째입니다. 줄을 서 있는 사람은 모두 몇 명입니까?",
         "level": 2.0,
         "equation_op": "4 6 [OP_ADD] 1 [OP_SUB]",
         "answer": 9.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "44": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0 39\ub97c \ub354\ud558\uace0 44\ub97c \ube7c\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 44\ub97c \ub354\ud558\uace0 39\ub97c \ube90\ub354\ub2c8 63\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에 39를 더하고 44를 빼야 하는데 잘못하여 44를 더하고 39를 뺐더니 63이 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 3.0,
         "equation_op": "63 44 [OP_SUB] 39 [OP_ADD] 39 [OP_ADD] 44 [OP_SUB]",
         "answer": 53.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\ubc14\ub974\uac8c \uacc4\uc0b0"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "바르게 계산"
     },
     "45": {
-        "question": "\uc7a5\ub09c\uac10 19\uac1c\ub97c \ud55c \uc904\ub85c \ub193\uc558\uc2b5\ub2c8\ub2e4. \uc7a5\ub09c\uac10 (\uac00)\ub294 \uc624\ub978\ucabd\uc5d0\uc11c 8\ubc88\uc9f8\ub77c\uba74 \uc67c\ucabd\uc5d0\uc11c\ub294 \uba87 \ubc88\uc9f8\uc785\ub2c8\uae4c?",
+        "question": "장난감 19개를 한 줄로 놓았습니다. 장난감 (가)는 오른쪽에서 8번째라면 왼쪽에서는 몇 번째입니까?",
         "level": 2.0,
         "equation_op": "19 8 [OP_SUB] 1 [OP_ADD]",
         "answer": 12.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "46": {
-        "question": "38\uac1c\uc758 \uacfc\uc790\ub97c \ud559\uc0dd\ub4e4\uc5d0\uac8c 5\uac1c\uc529 \ub098\ub204\uc5b4 \uc8fc\uc5c8\ub354\ub2c8 3\uac1c\uac00 \ub0a8\uc558\uc2b5\ub2c8\ub2e4. \uacfc\uc790\ub97c \ubc1b\uc740 \ud559\uc0dd\uc740 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "38개의 과자를 학생들에게 5개씩 나누어 주었더니 3개가 남았습니다. 과자를 받은 학생은 몇 명입니까?",
         "level": 4.0,
         "equation_op": "38 3 [OP_SUB] 5 [OP_FDIV]",
         "answer": 7.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\ub098\uba38\uc9c0"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "나머지"
     },
     "47": {
-        "question": "\ud559\uc0dd 13\uba85\uc774 \ud55c \uc904\ub85c \uc11c \uc788\uc2b5\ub2c8\ub2e4. \ubbfc\uc601\uc774\ub294 \uc67c\ucabd\uc5d0\uc11c 8\ubc88\uc9f8\uc5d0 \uc11c \uc788\uace0, \ud638\uc11d\uc774\ub294 \uc624\ub978\ucabd\uc5d0\uc11c 9\ubc88\uc9f8\uc5d0 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \ubbfc\uc601\uc774\uc640 \ud638\uc11d\uc774 \uc0ac\uc774\uc5d0 \uc11c \uc788\ub294 \ud559\uc0dd\uc740 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "학생 13명이 한 줄로 서 있습니다. 민영이는 왼쪽에서 8번째에 서 있고, 호석이는 오른쪽에서 9번째에 서 있습니다. 민영이와 호석이 사이에 서 있는 학생은 몇 명입니까?",
         "level": 3.0,
         "equation_op": "8 9 [OP_ADD] 13 [OP_SUB] 2 [OP_SUB]",
         "answer": 2.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "48": {
-        "question": "\uac00\ub85c\uac00 4\uc13c\ud2f0\ubbf8\ud130(\u339d), \uc138\ub85c\uac00 3\uc13c\ud2f0\ubbf8\ud130(\u339d), \ub192\uc774\uac00 3\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778 \uc9c1\uc721\uba74\uccb4\uc758 \ubaa8\ub4e0 \uba74\uc5d0 \ud30c\ub780\uc0c9 \ubb3c\uac10\uc744 \uce60\ud558\uc600\uc2b5\ub2c8\ub2e4. \uadf8\ub9ac\uace0 \uc774 \uc9c1\uc721\uba74\uccb4\ub97c \ud55c \ubaa8\uc11c\ub9ac\uc758 \uae38\uc774\uac00 1\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778 \uc815\uc721\uba74\uccb4 36\uac1c\ub85c \ub098\ub204\uc5c8\uc2b5\ub2c8\ub2e4. 2\uac1c\uc758 \uba74\uc774 \uc0c9\uce60\ub41c \uc815\uc721\uba74\uccb4 \uc870\uac01\uc740 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "가로가 4센티미터(㎝), 세로가 3센티미터(㎝), 높이가 3센티미터(㎝)인 직육면체의 모든 면에 파란색 물감을 칠하였습니다. 그리고 이 직육면체를 한 모서리의 길이가 1센티미터(㎝)인 정육면체 36개로 나누었습니다. 2개의 면이 색칠된 정육면체 조각은 몇 개입니까?",
         "level": 5.0,
         "equation_op": "4 2 [OP_SUB] 3 2 [OP_SUB] [OP_ADD] 3 2 [OP_SUB] [OP_ADD] 4 [OP_MUL]",
         "answer": 16.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ub3c4\ud615 \ubcf5\ud569",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "도형 복합",
+        "category_small": "기본"
     },
     "49": {
-        "question": "2, 7, 4, 9 \uc911\uc5d0\uc11c \uc11c\ub85c \ub2e4\ub978 \uc22b\uc790 3\uac1c\ub97c \ubf51\uc544 \ub9cc\ub4e4 \uc218 \uc788\ub294 \uc138 \uc790\ub9ac \uc218 \uc911\uc5d0\uc11c \uac00\uc7a5 \ud070 \uc218\uc5d0\uc11c \uac00\uc7a5 \uc791\uc740 \uc218\ub97c \ube80 \uac12\uc740 \uc5bc\ub9c8\uc785\ub2c8\uae4c?",
+        "question": "2, 7, 4, 9 중에서 서로 다른 숫자 3개를 뽑아 만들 수 있는 세 자리 수 중에서 가장 큰 수에서 가장 작은 수를 뺀 값은 얼마입니까?",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 2 7 4 9 [OP_LIST_EOL] 3 [OP_LIST_GET_PERM] 1 [OP_LIST_MAX] 1 [OP_LIST_MIN] [OP_SUB]",
         "answer": 727.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc22b\uc790 \ub9cc\ub4e4\uae30"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "숫자 만들기"
     },
     "50": {
-        "question": "\uc5b4\ub290 \ucd08\ub4f1\ud559\uad50\uc5d0\uc11c \ub098\ubb34\ub97c \uc2ec\ub294\ub370 (\uac00) \ubc18\uc740 225\uadf8\ub8e8\ub97c \uc2ec\uc5c8\uace0, (\ub098) \ubc18\uc740 (\uac00) \ubc18\ubcf4\ub2e4 48\uadf8\ub8e8 \ub354 \ub9ce\uc774 \uc2ec\uc5c8\uace0, (\ub2e4) \ubc18\uc740 (\uac00) \ubc18\ubcf4\ub2e4 24\uadf8\ub8e8 \ub354 \uc801\uac8c \uc2ec\uc5c8\uc2b5\ub2c8\ub2e4. (\uac00), (\ub098), (\ub2e4) \uc138 \ubc18\uc774 \uc2ec\uc740 \ub098\ubb34\uc758 \uc218\ub294 \ud3c9\uade0 \uba87 \uadf8\ub8e8\uc785\ub2c8\uae4c?",
+        "question": "어느 초등학교에서 나무를 심는데 (가) 반은 225그루를 심었고, (나) 반은 (가) 반보다 48그루 더 많이 심었고, (다) 반은 (가) 반보다 24그루 더 적게 심었습니다. (가), (나), (다) 세 반이 심은 나무의 수는 평균 몇 그루입니까?",
         "level": 5.0,
         "equation_op": "225 225 48 [OP_ADD] [OP_ADD] 225 24 [OP_SUB] [OP_ADD] 3 [OP_DIV]",
         "answer": 233.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\ud3c9\uade0"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "평균"
     },
     "51": {
-        "question": "\uce5c\uad6c\ub4e4\uc774 \uc77c\ub82c\ub85c \uc904\uc744 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc55e\uc5d0\uc11c 8\ubc88\uc9f8, \ub4a4\uc5d0\uc11c 6\ubc88\uc9f8\uc5d0 \uc11d\uc9c4\uc774\uac00 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc904\uc744 \uc11c \uc788\ub294 \uce5c\uad6c\ub4e4\uc740 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "친구들이 일렬로 줄을 서 있습니다. 앞에서 8번째, 뒤에서 6번째에 석진이가 서 있습니다. 줄을 서 있는 친구들은 모두 몇 명입니까?",
         "level": 2.0,
         "equation_op": "8 6 [OP_ADD] 1 [OP_SUB]",
         "answer": 13.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "52": {
-        "question": "6\uba85\uc758 \ud559\uc0dd\uc774 (\uac00) \uc6b4\ub3d9\uc744 \ud558\uace0 \uc788\uace0, (\ub098) \uc6b4\ub3d9\uc744 \ud558\ub294 \ud559\uc0dd \uc218\ub294 (\uac00) \uc6b4\ub3d9\uc744 \ud558\ub294 \ud559\uc0dd \uc218\uc758 4\ubc30\uc785\ub2c8\ub2e4. (\ub098) \uc6b4\ub3d9\uc744 \ud558\ub294 \ud559\uc0dd\uc740 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "6명의 학생이 (가) 운동을 하고 있고, (나) 운동을 하는 학생 수는 (가) 운동을 하는 학생 수의 4배입니다. (나) 운동을 하는 학생은 몇 명입니까?",
         "level": 2.0,
         "equation_op": "6 4 [OP_MUL]",
         "answer": 24.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc804\uccb4 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "전체 개수가 주어질 때"
     },
     "53": {
-        "question": "\uc77c\uacf1 \uc790\ub9ac \uc218 95738AB\uac00 5\ub85c \ub098\ub204\uc5b4\ub5a8\uc5b4\uc9c0\uace0 A\uc640 B\uc5d0\ub294 0\ubd80\ud130 9\uae4c\uc9c0\uc758 \uc22b\uc790\uac00 \ub4e4\uc5b4\uac08 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc774\ub7ec\ud55c \uc218\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "일곱 자리 수 95738AB가 5로 나누어떨어지고 A와 B에는 0부터 9까지의 숫자가 들어갈 수 있습니다. 이러한 수는 모두 몇 개입니까?",
         "level": 5.0,
         "equation_op": "95738AB [OP_GEN_POSSIBLE_LIST] 5 [OP_LIST_DIVISIBLE] [OP_LIST_LEN]",
         "answer": 20.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\ubbf8\uc9c0\uc218 \uc790\ub9ac\uc218",
-        "category_small": "\ub098\ub204\uae30"
+        "qtype": "조합",
+        "category_big": "미지수 자리수",
+        "category_small": "나누기"
     },
     "54": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 48\uc744 \ube90\ub354\ub2c8 22\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\uc5d0\uc11c 32\ub97c \ube7c\uba74 \uc5bc\ub9c8\uac00 \ub418\ub294\uc9c0 \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 48을 뺐더니 22가 되었습니다. 어떤 수에서 32를 빼면 얼마가 되는지 구하시오.",
         "level": 2.0,
         "equation_op": "22 48 [OP_ADD] 32 [OP_SUB]",
         "answer": 38.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\ucd94\uac00"
+        "qtype": "수찾기-3",
+        "category_big": "연산",
+        "category_small": "추가"
     },
     "55": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 27\uc744 \ube7c\uace0 15\ub97c \ub354\ud574\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 15\ub97c \ube7c\uace0 27\uc744 \ub354\ud588\ub354\ub2c8 41\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 27을 빼고 15를 더해야 하는데 잘못하여 15를 빼고 27을 더했더니 41이 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 3.0,
         "equation_op": "41 27 [OP_SUB] 15 [OP_ADD] 27 [OP_SUB] 15 [OP_ADD]",
         "answer": 17.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\ubc14\ub974\uac8c \uacc4\uc0b0"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "바르게 계산"
     },
     "56": {
-        "question": "\ub124 \uc790\ub9ac \uc218 7A2B\ub294 2, 3, 5\ub85c \ub098\ub204\uc5b4\ub5a8\uc5b4\uc9c0\uace0 A\uc640 B\ub294 \uc11c\ub85c \ub2e4\ub978 \uc22b\uc790\ub97c \ub098\ud0c0\ub0c5\ub2c8\ub2e4. \uc774\ub7ec\ud55c \ub124 \uc790\ub9ac \uc218\ub97c \ubaa8\ub450 \ucc3e\uc558\uc744 \ub54c, \uac00\uc7a5 \ud070 \uc218\ub97c \uc4f0\uc2dc\uc624.",
+        "question": "네 자리 수 7A2B는 2, 3, 5로 나누어떨어지고 A와 B는 서로 다른 숫자를 나타냅니다. 이러한 네 자리 수를 모두 찾았을 때, 가장 큰 수를 쓰시오.",
         "level": 5.0,
         "equation_op": "7A2B [OP_GEN_POSSIBLE_LIST]  2 [OP_LIST_DIVISIBLE] 3 [OP_LIST_DIVISIBLE] 5 [OP_LIST_DIVISIBLE] 1 [OP_LIST_MAX]",
         "answer": 7920.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\ubbf8\uc9c0\uc218 \uc790\ub9ac\uc218",
-        "category_small": "\ub098\ub204\uae30"
+        "qtype": "수찾기-2",
+        "category_big": "미지수 자리수",
+        "category_small": "나누기"
     },
     "57": {
-        "question": "\uc5b4\ub5a4 \uc218\ub294 10\ubcf4\ub2e4 \uc791\uace0, 2\uc758 \ubc30\uc218\ub098 3\uc758 \ubc30\uc218\uac00 \uc544\ub2d9\ub2c8\ub2e4. 7, 8, 9, 10 \uc911 \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수는 10보다 작고, 2의 배수나 3의 배수가 아닙니다. 7, 8, 9, 10 중 어떤 수를 구하시오.",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 7 8 9 10 [OP_LIST_EOL] 2 [OP_LIST_DIVISIBLE] [OP_SET_DIFFERENCE] 3 [OP_LIST_DIVISIBLE] [OP_SET_DIFFERENCE] 10 [OP_LIST_LESS] 1 [OP_LIST_GET]",
         "answer": 7.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\ubc94\uc704",
-        "category_small": "\uc5b4\ub5a4 \uc218"
+        "qtype": "수찾기-1",
+        "category_big": "범위",
+        "category_small": "어떤 수"
     },
     "58": {
-        "question": "\uc0ac\uacfc\uc640 \uac10\uc744 \ud569\ud558\uba74 \ubaa8\ub450 33\uac1c\uc785\ub2c8\ub2e4. \uadf8\uc911\uc5d0\uc11c \uc0ac\uacfc\uac00 18\uac1c\ub77c\uba74 \uac10\uc740 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "사과와 감을 합하면 모두 33개입니다. 그중에서 사과가 18개라면 감은 몇 개입니까?",
         "level": 1.0,
         "equation_op": "33 18 [OP_SUB]",
         "answer": 15.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc804\uccb4 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "전체 개수가 주어질 때"
     },
     "59": {
-        "question": "\ub9c8\ud2b8\uc5d0 \uac19\uc740 \ubb34\uac8c\uc758 \uc0ac\uacfc\ub97c \ub2f4\uc740 \uc0c1\uc790\uac00 5\uac1c \uc788\uc2b5\ub2c8\ub2e4. \uac01 \uc0c1\uc790\uc5d0\uc11c \uc0ac\uacfc\ub97c 30\ud0ac\ub85c\uadf8\ub7a8(\u338f)\uc529 \uaebc\ub0b8 \ud6c4, 5\uac1c\uc758 \uc0c1\uc790\uc5d0 \ub0a8\uc740 \uc0ac\uacfc\uc758 \ubb34\uac8c\ub97c \uc7ac\uc5b4 \ubcf4\ub2c8 \uc6d0\ub798 \uc0c1\uc790 2\uac1c\uc758 \uc0ac\uacfc\uc758 \ubb34\uac8c\uc640 \uac19\uc558\uc2b5\ub2c8\ub2e4. \uc6d0\ub798 \uac01 \uc0c1\uc790\uc5d0 \ub4e4\uc5b4 \uc788\ub358 \uc0ac\uacfc\ub294 \uba87 \ud0ac\ub85c\uadf8\ub7a8(\u338f)\uc785\ub2c8\uae4c?",
+        "question": "마트에 같은 무게의 사과를 담은 상자가 5개 있습니다. 각 상자에서 사과를 30킬로그램(㎏)씩 꺼낸 후, 5개의 상자에 남은 사과의 무게를 재어 보니 원래 상자 2개의 사과의 무게와 같았습니다. 원래 각 상자에 들어 있던 사과는 몇 킬로그램(㎏)입니까?",
         "level": 3.0,
         "equation_op": "30 5 [OP_MUL] 5 2 [OP_SUB] [OP_DIV]",
         "answer": 50.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\ubb3c\uac74\uacfc \ubcf4\uad00\ud568\uc758 \ubb34\uac8c"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "물건과 보관함의 무게"
     },
     "60": {
-        "question": "\uae38\uc774\uac00 63\u339d\uc778 \ucca0\uc0ac\ub85c \uc815\uc0bc\uac01\ud615\uc744 \ub9cc\ub4e4\uc5c8\ub354\ub2c8 \ucca0\uc0ac\uac00 \ub0a8\uc9c0\ub3c4 \ubaa8\uc790\ub77c\uc9c0\ub3c4 \uc54a\uc558\uc2b5\ub2c8\ub2e4. \uc815\uc0bc\uac01\ud615\uc758 \ud55c \ubcc0\uc758 \uae38\uc774\ub294 \uba87 \uc13c\ud2f0\ubbf8\ud130(\u339d)\uc785\ub2c8\uae4c?",
+        "question": "길이가 63㎝인 철사로 정삼각형을 만들었더니 철사가 남지도 모자라지도 않았습니다. 정삼각형의 한 변의 길이는 몇 센티미터(㎝)입니까?",
         "level": 3.0,
         "equation_op": "63 3 [OP_DIV]",
         "answer": 21.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\uae38\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "길이",
+        "category_small": "기본"
     },
     "61": {
-        "question": "\uc0c9\uc885\uc774\ub97c \uc9c0\ubbfc\uc774\ub294 41\uc7a5 \uac00\uc9c0\uace0 \uc788\uace0, \uc11d\uc9c4\uc774\ub294 \uc9c0\ubbfc\uc774\ubcf4\ub2e4 1\uc7a5 \ub354 \uc801\uac8c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc11d\uc9c4\uc774\uac00 \uac00\uc9c0\uace0 \uc788\ub294 \uc0c9\uc885\uc774\ub294 \uba87 \uc7a5\uc785\ub2c8\uae4c?",
+        "question": "색종이를 지민이는 41장 가지고 있고, 석진이는 지민이보다 1장 더 적게 가지고 있습니다. 석진이가 가지고 있는 색종이는 몇 장입니까?",
         "level": 1.0,
         "equation_op": "41 1 [OP_SUB]",
         "answer": 40.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
     },
     "62": {
-        "question": "\uc57c\uad6c\uacf5 43\uac1c\ub97c 6\uac1c\uc758 \ubc18\uc5d0 \ub611\uac19\uc774 \ub098\ub204\uc5b4 \uc8fc\uace0, \ub0a8\ub294 \uc57c\uad6c\uacf5\uc774 \uac00\uc7a5 \uc801\uac8c \ud558\ub824\uace0 \ud569\ub2c8\ub2e4. \uc774 \ub54c \ub0a8\ub294 \uc57c\uad6c\uacf5\uc740 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "야구공 43개를 6개의 반에 똑같이 나누어 주고, 남는 야구공이 가장 적게 하려고 합니다. 이 때 남는 야구공은 몇 개입니까?",
         "level": 3.0,
         "equation_op": "43 6 [OP_MOD]",
         "answer": 1.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\ub098\uba38\uc9c0"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "나머지"
     },
     "63": {
-        "question": "\ud770\uc0c9 \ubc14\ub451\ub3cc 2\uac1c\uc640 \uac80\uc740\uc0c9 \ubc14\ub451\ub3cc 1\uac1c\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uac19\uc740 \uc0c9\uc758 \ubc14\ub451\ub3cc\uc740 \uac01\uac01 \uad6c\ubcc4\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4\uace0 \ud560 \ub54c, \ubc14\ub451\ub3cc 3\uac1c\ub97c \uc11c\ub85c \ub2e4\ub974\uac8c \ud55c \uc904\ub85c \ub193\ub294 \ubc29\ubc95\uc740 \ubaa8\ub450 \uba87 \uac00\uc9c0\uc785\ub2c8\uae4c?",
+        "question": "흰색 바둑돌 2개와 검은색 바둑돌 1개가 있습니다. 같은 색의 바둑돌은 각각 구별이 되지 않는다고 할 때, 바둑돌 3개를 서로 다르게 한 줄로 놓는 방법은 모두 몇 가지입니까?",
         "level": 5.0,
         "equation_op": "1 2 [OP_ADD] 1 2 [OP_ADD] [OP_PERM] 2 2 [OP_PERM] [OP_DIV]",
         "answer": 3.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc790\uc5f0\uc5b4-\uad6c\ubcc4"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "자연어-구별"
     },
     "64": {
-        "question": "\uc5b4\ub5a4 \uc218\ubcf4\ub2e4 108 \ud070 \uc218\uac00 169\uc77c \ub54c, \uc5b4\ub5a4 \uc218\ubcf4\ub2e4 125 \ud070 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수보다 108 큰 수가 169일 때, 어떤 수보다 125 큰 수를 구하시오.",
         "level": 3.0,
         "equation_op": "169 108 [OP_SUB] 125 [OP_ADD]",
         "answer": 186.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\ucd94\uac00"
+        "qtype": "수찾기-3",
+        "category_big": "연산",
+        "category_small": "추가"
     },
     "65": {
-        "question": "\ubc31\uc758 \uc790\ub9ac \uc22b\uc790\uac00 2, \uc2ed\uc758 \uc790\ub9ac \uc22b\uc790\uac00 5\uc778 \uc138 \uc790\ub9ac \uc218 \uc911\uc5d0\uc11c 256\ubcf4\ub2e4 \ud070 \uc218\ub294 \ubaa8\ub450 \uba87 \uac1c\uc778\uc9c0 \uad6c\ud558\uc2dc\uc624.",
+        "question": "백의 자리 숫자가 2, 십의 자리 숫자가 5인 세 자리 수 중에서 256보다 큰 수는 모두 몇 개인지 구하시오.",
         "level": 1.0,
         "equation_op": "25A [OP_GEN_POSSIBLE_LIST] 256 [OP_LIST_MORE] [OP_LIST_LEN]",
         "answer": 3.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc790\ub9ac\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-1",
+        "category_big": "자리수",
+        "category_small": "기본"
     },
     "66": {
-        "question": "A\ub294 509\uc785\ub2c8\ub2e4. A\ub294 B\ubcf4\ub2e4 197\ub9cc\ud07c \ud07d\ub2c8\ub2e4. C\ub294 B\ubcf4\ub2e4 125\ub9cc\ud07c \uc791\uc2b5\ub2c8\ub2e4. C\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "A는 509입니다. A는 B보다 197만큼 큽니다. C는 B보다 125만큼 작습니다. C를 구하시오.",
         "level": 3.0,
         "equation_op": "509 197 [OP_SUB] 125 [OP_SUB]",
         "answer": 187.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\ub450 \uc218"
+        "qtype": "수찾기-2",
+        "category_big": "연산",
+        "category_small": "두 수"
     },
     "67": {
-        "question": "\uc5b4\ub5a4 \uc218\ub97c 23\uc73c\ub85c \ub098\ub208 \uac12\uc5d0\uc11c 67\uc744 \ube80 \ud6c4 2\ub97c \uacf1\ud55c \uac12\uc774 102\uc785\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수를 23으로 나눈 값에서 67을 뺀 후 2를 곱한 값이 102입니다. 어떤 수를 구하시오.",
         "level": 4.0,
         "equation_op": "102 2 [OP_DIV] 67 [OP_ADD] 23 [OP_MUL]",
         "answer": 2714.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-3",
+        "category_big": "연산",
+        "category_small": "기본"
     },
     "68": {
-        "question": "3, 9, 6, 0, 5, 1, 7\uc744 \ud55c \ubc88\uc529\ub9cc \uc0ac\uc6a9\ud558\uc5ec \ub9cc\ub4e4 \uc218 \uc788\ub294 \uc77c\uacf1 \uc790\ub9ac \uc218 \uc911\uc5d0\uc11c \uac00\uc7a5 \ud070 \uc218\uc5d0\uc11c \uac00\uc7a5 \uc791\uc740 \uc218\ub97c \ube80 \uac12\uc740 \uc5bc\ub9c8\uc785\ub2c8\uae4c?",
+        "question": "3, 9, 6, 0, 5, 1, 7을 한 번씩만 사용하여 만들 수 있는 일곱 자리 수 중에서 가장 큰 수에서 가장 작은 수를 뺀 값은 얼마입니까?",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 3 9 6 0 5 1 7 [OP_LIST_EOL] 7 [OP_LIST_GET_PERM] 1 [OP_LIST_MAX] 1 [OP_LIST_MIN] [OP_SUB]",
         "answer": 8729631.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc22b\uc790 \ub9cc\ub4e4\uae30"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "숫자 만들기"
     },
     "69": {
-        "question": "\uc11d\uc9c4\uc774\uc640 \ud0dc\ud615\uc774\ub294 \ub3c4\ud654\uc9c0\ub97c \uac01\uac01 10\uc7a5\uc529 \uac00\uc9c0\uace0 \uc788\uc5c8\uc2b5\ub2c8\ub2e4. \uc11d\uc9c4\uc774\ub294 5\uc7a5\uc744 \uc0ac\uc6a9\ud588\uace0 \ud0dc\ud615\uc774\ub294 4\uc7a5\uc744 \uc0ac\uc6a9\ud588\uc2b5\ub2c8\ub2e4. \ub0a8\uc740 \ub3c4\ud654\uc9c0\ub294 \ub204\uac00 \ub354 \ub9ce\uc2b5\ub2c8\uae4c?",
+        "question": "석진이와 태형이는 도화지를 각각 10장씩 가지고 있었습니다. 석진이는 5장을 사용했고 태형이는 4장을 사용했습니다. 남은 도화지는 누가 더 많습니까?",
         "level": 1.0,
-        "equation_op": "[OP_LIST_SOL] \uc11d\uc9c4 \ud0dc\ud615 [OP_LIST_EOL] [OP_LIST_SOL] 10 5 [OP_SUB] 10 4 [OP_SUB] [OP_LIST_EOL] 1 [OP_LIST_MAX] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
-        "answer": "\ud0dc\ud615",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 석진 태형 [OP_LIST_EOL] [OP_LIST_SOL] 10 5 [OP_SUB] 10 4 [OP_SUB] [OP_LIST_EOL] 1 [OP_LIST_MAX] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "태형",
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "70": {
-        "question": "\uc7a5\ubbf8\uac00 58\uc1a1\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc7a5\ubbf8\ub294 \ud2a4\ub9bd\ubcf4\ub2e4 15\uc1a1\uc774 \ub354 \ub9ce\uace0, \ubc31\ud569\ubcf4\ub2e4 25\uc1a1\uc774 \ub354 \uc801\uc2b5\ub2c8\ub2e4. \uc7a5\ubbf8, \ud2a4\ub9bd, \ubc31\ud569 3\uc885\ub958\uc758 \uaf43\uc740 \ubaa8\ub450 \uba87 \uc1a1\uc774 \uc788\uc2b5\ub2c8\uae4c?",
+        "question": "장미가 58송이 있습니다. 장미는 튤립보다 15송이 더 많고, 백합보다 25송이 더 적습니다. 장미, 튤립, 백합 3종류의 꽃은 모두 몇 송이 있습니까?",
         "level": 3.0,
         "equation_op": "58 58 15 [OP_SUB] [OP_ADD] 58 25 [OP_ADD] [OP_ADD]",
         "answer": 184.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
     },
     "71": {
-        "question": "\uc815\uad6d, \uc9c0\ubbfc, \uc11d\uc9c4 \uc138 \uc0ac\ub78c\uc740 \uacf5\ucc45\uc744 \ubaa8\ub450 \ud569\ud574\uc11c 60\uad8c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc815\uad6d\uc774\uac00 \uc9c0\ubbfc\uc774\uc5d0\uac8c \uacf5\ucc45 2\uad8c\uc744 \uc8fc\uace0, \uc9c0\ubbfc\uc774\uac00 \uc11d\uc9c4\uc774\uc5d0\uac8c \uacf5\ucc45 3\uad8c\uc744 \uc8fc\uba74 \uc138 \uc0ac\ub78c\uc774 \uac00\uc9c4 \uacf5\ucc45\uc758 \uc218\ub294 \ubaa8\ub450 \uac19\uc544\uc9d1\ub2c8\ub2e4. \ucc98\uc74c\uc5d0 \uc9c0\ubbfc\uc774\uac00 \uac00\uc9c0\uace0 \uc788\ub358 \uacf5\ucc45\uc740 \uba87 \uad8c\uc785\ub2c8\uae4c?",
+        "question": "정국, 지민, 석진 세 사람은 공책을 모두 합해서 60권 가지고 있습니다. 정국이가 지민이에게 공책 2권을 주고, 지민이가 석진이에게 공책 3권을 주면 세 사람이 가진 공책의 수는 모두 같아집니다. 처음에 지민이가 가지고 있던 공책은 몇 권입니까?",
         "level": 3.0,
         "equation_op": "60 3 [OP_DIV] 2 [OP_SUB] 3 [OP_ADD]",
         "answer": 21.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\uc5ec\ub7ec \uac1c \uc8fc\uace0 \ubc1b\uae30"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "여러 개 주고 받기"
     },
     "72": {
-        "question": "\ub124 \uc790\ub9ac \uc218\uc640 \ub450 \uc790\ub9ac \uc218\uc758 \ube84\uc148\uc5d0\uc11c \ub124 \uc790\ub9ac \uc218\uc758 \uc77c\uc758 \uc790\ub9ac \uc22b\uc790 9\ub97c 5\ub85c \uc798\ubabb \ubcf4\uace0, \ub450 \uc790\ub9ac \uc218\uc758 \uc2ed\uc758 \uc790\ub9ac \uc22b\uc790\uc640 \uc77c\uc758 \uc790\ub9ac \uc22b\uc790\ub97c \ubc14\uafb8\uc5b4 84\ub85c \uc798\ubabb \ubcf4\uace0 \uacc4\uc0b0\ud558\uc600\ub354\ub2c8 \uadf8 \uac12\uc774 1781\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "네 자리 수와 두 자리 수의 뺄셈에서 네 자리 수의 일의 자리 숫자 9를 5로 잘못 보고, 두 자리 수의 십의 자리 숫자와 일의 자리 숫자를 바꾸어 84로 잘못 보고 계산하였더니 그 값이 1781이 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 4.0,
         "equation_op": "1781 9 5 [OP_SUB] [OP_ADD] 84 48 [OP_SUB] [OP_ADD]",
         "answer": 1821.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc22b\uc790 \uc624\ub958",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-3",
+        "category_big": "숫자 오류",
+        "category_small": "기본"
     },
     "73": {
-        "question": "7\uc1a1\uc774\uc758 \uaf43 (\uac00), (\ub098), (\ub2e4), (\ub77c), (\ub9c8), (\ubc14), (\uc0ac)\ub97c \uc21c\uc11c\ub300\ub85c \uc2ec\uc5c8\uc2b5\ub2c8\ub2e4. 5\ubc88\uc9f8\ub85c \uc2ec\uc740 \uaf43\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?",
+        "question": "7송이의 꽃 (가), (나), (다), (라), (마), (바), (사)를 순서대로 심었습니다. 5번째로 심은 꽃은 무엇입니까?",
         "level": 1.0,
-        "equation_op": "[OP_LIST_SOL] (\uac00) (\ub098) (\ub2e4) (\ub77c) (\ub9c8) (\ubc14) (\uc0ac) [OP_LIST_EOL] 5 [OP_LIST_GET]",
-        "answer": "(\ub9c8)",
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] (가) (나) (다) (라) (마) (바) (사) [OP_LIST_EOL] 5 [OP_LIST_GET]",
+        "answer": "(마)",
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "74": {
-        "question": "\ud559\uc0dd\ub4e4\uc774 \uc904\uc744 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc9c0\ubbfc\uc774\ub294 \uc55e\uc5d0\uc11c 9\ubc88\uc9f8\uc5d0 \uc11c \uc788\uace0 \uc11d\uc9c4\uc774\ub294 \uc9c0\ubbfc\uc774 \ubc14\ub85c \uc55e\uc5d0 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \uc11d\uc9c4\uc774\ub294 \uc55e\uc5d0\uc11c \uba87 \ubc88\uc9f8\uc5d0 \uc11c \uc788\uc2b5\ub2c8\uae4c?",
+        "question": "학생들이 줄을 서 있습니다. 지민이는 앞에서 9번째에 서 있고 석진이는 지민이 바로 앞에 서 있습니다. 석진이는 앞에서 몇 번째에 서 있습니까?",
         "level": 1.0,
         "equation_op": "9 1 [OP_SUB]",
         "answer": 8.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "75": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 29\ub97c \ube7c\uace0 64\ub97c \ub354\ud588\ub354\ub2c8 76\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 29를 빼고 64를 더했더니 76이 되었습니다. 어떤 수를 구하시오.",
         "level": 2.0,
         "equation_op": "76 64 [OP_SUB] 29 [OP_ADD]",
         "answer": 41.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-3",
+        "category_big": "연산",
+        "category_small": "기본"
     },
     "76": {
-        "question": "\uc9c0\ubbfc\uc774\uc758 \uacfc\ud559 \uc810\uc218\ub294 87\uc810\uc774\uace0, \uc0ac\ud68c \uc810\uc218\ub294 \uacfc\ud559 \uc810\uc218\ubcf4\ub2e4 6\uc810 \ub192\uc2b5\ub2c8\ub2e4. \uacfc\ud559, \uc0ac\ud68c, \uc601\uc5b4 \uc138 \uacfc\ubaa9\uc758 \ud3c9\uade0 \uc810\uc218\uac00 92\uc810\uc774 \ub418\ub824\uba74 \uc601\uc5b4\ub97c \uba87 \uc810 \ub9de\uc544\uc57c \ud569\ub2c8\uae4c?",
+        "question": "지민이의 과학 점수는 87점이고, 사회 점수는 과학 점수보다 6점 높습니다. 과학, 사회, 영어 세 과목의 평균 점수가 92점이 되려면 영어를 몇 점 맞아야 합니까?",
         "level": 6.0,
         "equation_op": "92 3 [OP_MUL] 87 87 6 [OP_ADD] [OP_ADD] [OP_SUB]",
         "answer": 96.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc810\uc218"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "점수"
     },
     "77": {
-        "question": "\uc624\uc774\uac00 18\uac1c \uc788\uace0, \uc624\uc774\ub294 \uc218\ubc15\ubcf4\ub2e4 8\uac1c \ub354 \uc801\uc2b5\ub2c8\ub2e4. \uc218\ubc15\uacfc \uc624\uc774\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "오이가 18개 있고, 오이는 수박보다 8개 더 적습니다. 수박과 오이는 모두 몇 개입니까?",
         "level": 2.0,
         "equation_op": "18 18 8 [OP_ADD] [OP_ADD]",
         "answer": 44.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
     },
     "78": {
-        "question": "\uc62c\ud574 \uc720\ub098\ub294 12\uc0b4\uc774\uace0 \ud560\uba38\ub2c8\ub294 72\uc0b4\uc785\ub2c8\ub2e4. \ud560\uba38\ub2c8 \ub098\uc774\uac00 \uc720\ub098 \ub098\uc774\uc758 7\ubc30\uac00 \ub420 \ub54c, \ud560\uba38\ub2c8 \ub098\uc774\ub294 \uba87 \uc0b4\uc785\ub2c8\uae4c?",
+        "question": "올해 유나는 12살이고 할머니는 72살입니다. 할머니 나이가 유나 나이의 7배가 될 때, 할머니 나이는 몇 살입니까?",
         "level": 5.0,
         "equation_op": "72 12 [OP_SUB] 7 [OP_MUL] 7 1 [OP_SUB] [OP_DIV]",
         "answer": 70.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ub098\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "나이",
+        "category_small": "기본"
     },
     "79": {
-        "question": "\ud770\uc0c9 \ub2ed\uacfc \uac80\uc740\uc0c9 \ub2ed\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \ub2ed\ub4e4\uc740 \ud558\ub8e8\uc5d0 \uc54c\uc744 \ubaa8\ub450 17\uac1c \ub0b3\ub294\ub370 \uac80\uc740\uc0c9 \ub2ed\uc774 \ud770\uc0c9 \ub2ed\ubcf4\ub2e4 3\uac1c \ub354 \uc801\uac8c \ub0b3\uc2b5\ub2c8\ub2e4. \uac80\uc740\uc0c9 \ub2ed\uc740 \ud558\ub8e8\uc5d0 \uc54c\uc744 \uba87 \uac1c \ub0b3\uc2b5\ub2c8\uae4c?",
+        "question": "흰색 닭과 검은색 닭이 있습니다. 이 닭들은 하루에 알을 모두 17개 낳는데 검은색 닭이 흰색 닭보다 3개 더 적게 낳습니다. 검은색 닭은 하루에 알을 몇 개 낳습니까?",
         "level": 3.0,
         "equation_op": "17 3 [OP_ADD] 2 [OP_DIV] 3 [OP_SUB]",
         "answer": 7.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc804\uccb4 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "전체 개수가 주어질 때"
     },
     "80": {
-        "question": "\uc11d\uc9c4\uc774\ub294 \uc218\uc601 \uc2dc\ud569\uc5d0\uc11c 8\ub4f1\uc744 \ud588\uc2b5\ub2c8\ub2e4. \uacb0\uc2b9\uc120\uc5d0 \uc11d\uc9c4\uc774\ubcf4\ub2e4 \ube68\ub9ac \ub4e4\uc5b4\uc628 \uc0ac\ub78c\uc740 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "석진이는 수영 시합에서 8등을 했습니다. 결승선에 석진이보다 빨리 들어온 사람은 모두 몇 명입니까?",
         "level": 1.0,
         "equation_op": "8 1 [OP_SUB]",
         "answer": 7.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "81": {
-        "question": "3\uac1c\uc758 \uc218\uc758 \ud3c9\uade0\uc740 3\uc785\ub2c8\ub2e4. \uc774 \uc911 \ud55c \uac1c\uc758 \uc218\ub97c \uace8\ub77c 1\ub85c \ubc14\uafb8\uc5c8\ub354\ub2c8 \ud3c9\uade0\uc774 2\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\uafbc \uc218\ub294 \uc6d0\ub798 \uc5bc\ub9c8\uc785\ub2c8\uae4c?",
+        "question": "3개의 수의 평균은 3입니다. 이 중 한 개의 수를 골라 1로 바꾸었더니 평균이 2가 되었습니다. 바꾼 수는 원래 얼마입니까?",
         "level": 6.0,
         "equation_op": "3 3 [OP_MUL] 2 3 [OP_MUL] 1 [OP_SUB] [OP_SUB]",
         "answer": 4.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc810\uc218"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "점수"
     },
     "82": {
-        "question": "(\uac00) \ubb3c\uac74 17\uac1c\uc640 (\ub098) \ubb3c\uac74 \uba87 \uac1c\uac00 \uc788\uc2b5\ub2c8\ub2e4. (\uac00) \ubb3c\uac74\uacfc (\ub098) \ubb3c\uac74\uc744 \ud569\uce58\uba74 \ubaa8\ub450 35\uac1c\uc785\ub2c8\ub2e4. (\ub098) \ubb3c\uac74\uc740 \uba87 \uac1c \uc788\uc2b5\ub2c8\uae4c?",
+        "question": "(가) 물건 17개와 (나) 물건 몇 개가 있습니다. (가) 물건과 (나) 물건을 합치면 모두 35개입니다. (나) 물건은 몇 개 있습니까?",
         "level": 2.0,
         "equation_op": "35 17 [OP_SUB]",
         "answer": 18.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc804\uccb4 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "전체 개수가 주어질 때"
     },
     "83": {
-        "question": "\uc11c\ub85c \ub2e4\ub978 \ub450 \uc218 A, B\uac00 \uc788\uc2b5\ub2c8\ub2e4. \ub450 \uc790\ub9ac \uc218\ub07c\ub9ac\uc758 \ube84\uc148\uc2dd 8A-B2=45\uc5d0\uc11c A\uc640 B\uc758 \ud569\uc744 \uad6c\ud558\uc2dc\uc624.",
+        "question": "서로 다른 두 수 A, B가 있습니다. 두 자리 수끼리의 뺄셈식 8A-B2=45에서 A와 B의 합을 구하시오.",
         "level": 2.0,
         "equation_op": "8A-B2=45 A [OP_DIGIT_UNK_SOLVER] 8A-B2=45 B [OP_DIGIT_UNK_SOLVER] [OP_ADD]",
         "answer": 11.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\ubc29\uc815\uc2dd \uc81c\uacf5",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-2",
+        "category_big": "방정식 제공",
+        "category_small": "기본"
     },
     "84": {
-        "question": "\ubaa8\ub4e0 \uc790\ub9ac \uc218\uc758 \ud569\uc774 35\uc778 \ub124 \uc790\ub9ac \uc218\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "모든 자리 수의 합이 35인 네 자리 수는 모두 몇 개입니까?",
         "level": 4.0,
         "equation_op": "1000 10000 1 [OP_SUB] 1 [OP_LIST_ARANGE] [OP_LIST_NUM2SUM] 35 [OP_LIST_MORE_EQUAL] 35 [OP_LIST_LESS_EQUAL] [OP_LIST_LEN]",
         "answer": 4.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc790\ub9ac\uc218",
-        "category_small": "\ud569"
+        "qtype": "조합",
+        "category_big": "자리수",
+        "category_small": "합"
     },
     "85": {
-        "question": "(\uac00) \ubc18 \ud559\uc0dd\ub4e4\uc740 8\uadf8\ub8e8\uc758 \ub098\ubb34\ub97c \uc2ec\uc5c8\uc2b5\ub2c8\ub2e4. (\ub098) \ubc18 \ud559\uc0dd\ub4e4\uc740 7\uadf8\ub8e8\uc758 \ub098\ubb34\ub97c \uc2ec\uc5c8\uc2b5\ub2c8\ub2e4. (\uac00) \ubc18\uacfc (\ub098) \ubc18 \ud559\uc0dd\ub4e4\uc774 \uc2ec\uc740 \ub098\ubb34\ub294 \ubaa8\ub450 \uba87 \uadf8\ub8e8\uc785\ub2c8\uae4c?",
+        "question": "(가) 반 학생들은 8그루의 나무를 심었습니다. (나) 반 학생들은 7그루의 나무를 심었습니다. (가) 반과 (나) 반 학생들이 심은 나무는 모두 몇 그루입니까?",
         "level": 1.0,
         "equation_op": "8 7 [OP_ADD]",
         "answer": 15.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc5ec\ub7ec \uac1c\uc758 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "여러 개의 개수가 주어질 때"
     },
     "86": {
-        "question": "\ub450 \uc218 A, B\uac00 \uc788\uc2b5\ub2c8\ub2e4. A\ub294 50\ubcf4\ub2e4 7 \ud070 \uc218\uc785\ub2c8\ub2e4. B\ub294 10\uac1c\uc529 6\ubb36\uc74c\uc778 \uc218\ubcf4\ub2e4 7 \uc791\uc740 \uc218\uc785\ub2c8\ub2e4. \ub354 \ud070 \uc218\ub294 \uc5b4\ub290 \uac83\uc785\ub2c8\uae4c?",
+        "question": "두 수 A, B가 있습니다. A는 50보다 7 큰 수입니다. B는 10개씩 6묶음인 수보다 7 작은 수입니다. 더 큰 수는 어느 것입니까?",
         "level": 1.0,
         "equation_op": "[OP_LIST_SOL] A B [OP_LIST_EOL] [OP_LIST_SOL] 50 7 [OP_ADD] 10 6 [OP_MUL] 7 [OP_SUB] [OP_LIST_EOL] 1 [OP_LIST_MAX] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
         "answer": "A",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "87": {
-        "question": "3, 5, 7, 8 \uc911\uc5d0\uc11c \uc11c\ub85c \ub2e4\ub978 \uc22b\uc790 2\uac1c\ub97c \ubf51\uc544 \ub9cc\ub4e4 \uc218 \uc788\ub294 \ub450 \uc790\ub9ac \uc218 \uc911\uc5d0\uc11c \uac00\uc7a5 \ud070 \uc218\uc640 \uac00\uc7a5 \uc791\uc740 \uc218\uc758 \ud569\uc744 \uad6c\ud558\uc2dc\uc624.",
+        "question": "3, 5, 7, 8 중에서 서로 다른 숫자 2개를 뽑아 만들 수 있는 두 자리 수 중에서 가장 큰 수와 가장 작은 수의 합을 구하시오.",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 3 5 7 8 [OP_LIST_EOL] 2 [OP_LIST_GET_PERM] 1 [OP_LIST_MAX] 1 [OP_LIST_MIN] [OP_ADD]",
         "answer": 122.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc22b\uc790 \ub9cc\ub4e4\uae30"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "숫자 만들기"
     },
     "88": {
-        "question": "5, 0, 1, 8, 7 \uc911\uc5d0\uc11c \uc11c\ub85c \ub2e4\ub978 \uc22b\uc790 4\uac1c\ub97c \ubf51\uc544 \ub9cc\ub4e4 \uc218 \uc788\ub294 \ub124 \uc790\ub9ac \uc218 \uc911\uc5d0\uc11c 3\ubc88\uc9f8\ub85c \uc791\uc740 \uc218\ub97c \uc4f0\uc2dc\uc624.",
+        "question": "5, 0, 1, 8, 7 중에서 서로 다른 숫자 4개를 뽑아 만들 수 있는 네 자리 수 중에서 3번째로 작은 수를 쓰시오.",
         "level": 2.0,
         "equation_op": "[OP_LIST_SOL] 5 0 1 8 7 [OP_LIST_EOL] 4 [OP_LIST_GET_PERM] 3 [OP_LIST_MIN]",
         "answer": 1075.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc22b\uc790 \ub9cc\ub4e4\uae30"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "숫자 만들기"
     },
     "89": {
-        "question": "\ucca0\uc0ac\ub85c \ud55c \ubaa8\uc11c\ub9ac\uc758 \uae38\uc774\uac00 17\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778 \uc815\uc721\uba74\uccb4\ub97c \ub9cc\ub4e4\ub824\uace0 \ud569\ub2c8\ub2e4. \ucca0\uc0ac\ub294 \uc801\uc5b4\ub3c4 \uba87 \uc13c\ud2f0\ubbf8\ud130(\u339d)\uac00 \ud544\uc694\ud569\ub2c8\uae4c?",
+        "question": "철사로 한 모서리의 길이가 17센티미터(㎝)인 정육면체를 만들려고 합니다. 철사는 적어도 몇 센티미터(㎝)가 필요합니까?",
         "level": 5.0,
         "equation_op": "17 4 [OP_MUL] 17 4 [OP_MUL] [OP_ADD] 17 4 [OP_MUL] [OP_ADD]",
         "answer": 204.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\uae38\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "길이",
+        "category_small": "기본"
     },
     "90": {
-        "question": "\uc6b4\ub3d9\uc7a5\uc5d0 \ud559\uc0dd\ub4e4\uc774 \uc549\uc544 \uc788\uc2b5\ub2c8\ub2e4. \uc720\uc815\uc774\ub294 \uc67c\ucabd\uc5d0\uc11c 12\ubc88\uc9f8 \uc5f4, \uc624\ub978\ucabd\uc5d0\uc11c 11\ubc88\uc9f8 \uc5f4, \uc55e\uc5d0\uc11c 18\ubc88\uc9f8 \uc904, \ub4a4\uc5d0\uc11c 8\ubc88\uc9f8 \uc904\uc5d0 \uc549\uc544 \uc788\uc2b5\ub2c8\ub2e4. \uac01 \uc904\ub9c8\ub2e4 \ud559\uc0dd\uc758 \uc218\uac00 \uac19\ub2e4\uace0 \ud560 \ub54c, \uc6b4\ub3d9\uc7a5\uc5d0 \uc549\uc544 \uc788\ub294 \ud559\uc0dd\uc740 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "운동장에 학생들이 앉아 있습니다. 유정이는 왼쪽에서 12번째 열, 오른쪽에서 11번째 열, 앞에서 18번째 줄, 뒤에서 8번째 줄에 앉아 있습니다. 각 줄마다 학생의 수가 같다고 할 때, 운동장에 앉아 있는 학생은 모두 몇 명입니까?",
         "level": 4.0,
         "equation_op": "12 11 [OP_ADD] 1 [OP_SUB] 18 8 [OP_ADD] 1 [OP_SUB] [OP_MUL]",
         "answer": 550.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "91": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 21\uc744 \ube7c\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 27\uc744 \ube90\ub354\ub2c8 20\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 21을 빼야 하는데 잘못하여 27을 뺐더니 20이 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 2.0,
         "equation_op": "20 27 [OP_ADD] 21 [OP_SUB]",
         "answer": 26.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\ubc14\ub974\uac8c \uacc4\uc0b0"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "바르게 계산"
     },
     "92": {
-        "question": "\uac00\ub85c\uac00 125\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc774\uace0 \uc138\ub85c\uac00 115 \uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778 \uc9c1\uc0ac\uac01\ud615\uc758 \ub124 \ubcc0\uc758 \uae38\uc774\uc758 \ud569\uacfc \uc138 \ubcc0\uc758 \uae38\uc774\uc758 \ud569\uc774 \uac19\uc740 \uc815\uc0bc\uac01\ud615\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uc815\uc0bc\uac01\ud615\uc758 \ud55c \ubcc0\uc758 \uae38\uc774\ub294 \uba87 \uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778\uc9c0 \uad6c\ud558\uc2dc\uc624.",
+        "question": "가로가 125센티미터(㎝)이고 세로가 115 센티미터(㎝)인 직사각형의 네 변의 길이의 합과 세 변의 길이의 합이 같은 정삼각형이 있습니다. 이 정삼각형의 한 변의 길이는 몇 센티미터(㎝)인지 구하시오.",
         "level": 3.0,
         "equation_op": "125 115 [OP_ADD] 2 [OP_MUL] 3 [OP_DIV]",
         "answer": 160.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\uae38\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "길이",
+        "category_small": "기본"
     },
     "93": {
-        "question": "\uc5f0\ud544 1\ud0c0\ub294 12\uc790\ub8e8\uc785\ub2c8\ub2e4. \ud0dc\ud615\uc774\ub294 \uc5f0\ud544\uc744 2\ud0c0 \uc0ac\uc11c \ub0a8\uc900\uc774\uc640 \ub098\ub204\uc5b4 \uac00\uc84c\ub294\ub370 \ub0a8\uc900\uc774\uac00 \ud0dc\ud615\uc774\ubcf4\ub2e4 4\uc790\ub8e8 \ub354 \ub9ce\uc774 \uac00\uc84c\uc2b5\ub2c8\ub2e4. \ub0a8\uc900\uc774\uac00 \uac00\uc9c4 \uc5f0\ud544\uc740 \uba87 \uc790\ub8e8\uc785\ub2c8\uae4c?",
+        "question": "연필 1타는 12자루입니다. 태형이는 연필을 2타 사서 남준이와 나누어 가졌는데 남준이가 태형이보다 4자루 더 많이 가졌습니다. 남준이가 가진 연필은 몇 자루입니까?",
         "level": 3.0,
         "equation_op": "12 2 [OP_MUL] 4 [OP_SUB] 2 [OP_DIV] 4 [OP_ADD]",
         "answer": 14.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc804\uccb4 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "전체 개수가 주어질 때"
     },
     "94": {
-        "question": "\ub18d\uc7a5\uc5d0\uc11c \uc554\ud0c9 52\ub9c8\ub9ac\ub97c \uae30\ub985\ub2c8\ub2e4. \uc554\ud0c9\uc740 \uc218\ud0c9\ubcf4\ub2e4 16\ub9c8\ub9ac \uc801\uc2b5\ub2c8\ub2e4. \ub18d\uc7a5\uc5d0 \uc788\ub294 \ub2ed\uc740 \ubaa8\ub450 \uba87 \ub9c8\ub9ac\uc785\ub2c8\uae4c?",
+        "question": "농장에서 암탉 52마리를 기릅니다. 암탉은 수탉보다 16마리 적습니다. 농장에 있는 닭은 모두 몇 마리입니까?",
         "level": 2.0,
         "equation_op": "52 52 16 [OP_ADD] [OP_ADD]",
         "answer": 120.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
     },
     "95": {
-        "question": "7, 1, 3, 2, 4, 9, 5\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uadf8\uc911\uc5d0\uc11c 2\uc640 6 \uc0ac\uc774\uc5d0 \uc788\ub294 \uc218\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "7, 1, 3, 2, 4, 9, 5가 있습니다. 그중에서 2와 6 사이에 있는 수는 모두 몇 개입니까?",
         "level": 1.0,
         "equation_op": "[OP_LIST_SOL] 7 1 3 2 4 9 5 [OP_LIST_EOL] 2 [OP_LIST_MORE_EQUAL] 6 [OP_LIST_LESS_EQUAL] [OP_LIST_LEN]",
         "answer": 4.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-1",
+        "category_big": "여러 수",
+        "category_small": "기본"
     },
     "96": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 32\ub97c \ube7c\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 23\uc744 \ube90\ub354\ub2c8 14\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 32를 빼야 하는데 잘못하여 23을 뺐더니 14가 되었습니다. 어떤 수를 구하시오.",
         "level": 2.0,
         "equation_op": "14 23 [OP_ADD]",
         "answer": 37.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "기본"
     },
     "97": {
-        "question": "\ub450 \uc790\ub9ac \uc218 \uc911\uc5d0\uc11c 13\uc73c\ub85c \ub098\ub204\uc5c8\uc744 \ub54c \ub098\uba38\uc9c0\uac00 2\uc778 \uac00\uc7a5 \ud070 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "두 자리 수 중에서 13으로 나누었을 때 나머지가 2인 가장 큰 수를 구하시오.",
         "level": 3.0,
         "equation_op": "10 99 1 [OP_LIST_ARANGE] 13 2 [OP_LIST_DIVIDE_AND_REMAIN] 1 [OP_LIST_MAX]",
         "answer": 93.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\ubc94\uc704",
-        "category_small": "\ub098\uba38\uc9c0"
+        "qtype": "수찾기-1",
+        "category_big": "범위",
+        "category_small": "나머지"
     },
     "98": {
-        "question": "1\ud1a4\uc9dc\ub9ac \ubb3c\uac74 48\uac1c\ub97c \uc62e\uae30\ub824\uace0 \ud569\ub2c8\ub2e4. 4\ud1a4\uae4c\uc9c0 \uc2e4\uc744 \uc218 \uc788\ub294 \ud2b8\ub7ed\uc5d0 \ubb3c\uac74\uc744 \uac00\ub4dd \ucc44\uc6cc 6\ub300\uc529 \ud55c \ubc88\uc5d0 \uc774\ub3d9\ud558\uc5ec \ubb3c\uac74\uc744 \ub098\ub974\ub824\uba74, \ubaa8\ub450 \uba87 \ubc88 \ub0a0\ub77c\uc57c \ud569\ub2c8\uae4c?",
+        "question": "1톤짜리 물건 48개를 옮기려고 합니다. 4톤까지 실을 수 있는 트럭에 물건을 가득 채워 6대씩 한 번에 이동하여 물건을 나르려면, 모두 몇 번 날라야 합니까?",
         "level": 3.0,
         "equation_op": "48 4 6 [OP_MUL] [OP_DIV]",
         "answer": 2.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "기본"
     },
     "99": {
-        "question": "\ud654\ub2e8\uc5d0 \uc7a5\ubbf8\uac00 9\uc1a1\uc774, \uad6d\ud654\uac00 7\uc1a1\uc774 \ud53c\uc5c8\uc2b5\ub2c8\ub2e4. \ud654\ub2e8\uc5d0 \ud540 \uc7a5\ubbf8\uc640 \uad6d\ud654\ub294 \ubaa8\ub450 \uba87 \uc1a1\uc774\uc785\ub2c8\uae4c?",
+        "question": "화단에 장미가 9송이, 국화가 7송이 피었습니다. 화단에 핀 장미와 국화는 모두 몇 송이입니까?",
         "level": 1.0,
         "equation_op": "9 7 [OP_ADD]",
         "answer": 16.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc5ec\ub7ec \uac1c\uc758 \uac1c\uc218\uac00 \uc8fc\uc5b4\uc9c8 \ub54c"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "여러 개의 개수가 주어질 때"
     },
     "100": {
-        "question": "\uc9c1\uc0ac\uac01\ud615 \ubaa8\uc591\uc778 \ubaa9\uc7a5 \uc6b8\ud0c0\ub9ac\uc758 \ub458\ub808\ub294 30\ubbf8\ud130(m)\uc785\ub2c8\ub2e4. \uc6b8\ud0c0\ub9ac\uc758 \uac00\ub85c \uae38\uc774\ub294 \uc138\ub85c \uae38\uc774\uc758 2\ubc30\ub77c\uace0 \ud569\ub2c8\ub2e4. \uc6b8\ud0c0\ub9ac\uc758 \uac00\ub85c \uae38\uc774\ub294 \uba87 \ubbf8\ud130(m)\uc785\ub2c8\uae4c?",
+        "question": "직사각형 모양인 목장 울타리의 둘레는 30미터(m)입니다. 울타리의 가로 길이는 세로 길이의 2배라고 합니다. 울타리의 가로 길이는 몇 미터(m)입니까?",
         "level": 3.0,
         "equation_op": "30 2 [OP_DIV] 1 2 [OP_ADD] [OP_DIV] 2 [OP_MUL]",
         "answer": 10.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\uae38\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "길이",
+        "category_small": "기본"
     },
     "101": {
-        "question": "\uc720\ub098\ub294 \uac00\uc9c0\uace0 \uc788\ub358 \uad6c\uc2ac \uc911\uc5d0\uc11c 12\uac1c\ub97c \ub3d9\uc0dd\uc5d0\uac8c \uc8fc\uace0 \uc5b8\ub2c8\uc5d0\uac8c 5\uac1c\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4. \uadf8\ub2e4\uc74c \uac00\uc9c0\uace0 \uc788\ub358 \uad6c\uc2ac\uc758 \uc808\ubc18\uc744 \ub0a8\uc900\uc774\uc5d0\uac8c \uc8fc\uace0 \uc724\uae30\uc5d0\uac8c 3\uac1c\ub97c \ubc1b\uc544\uc11c 17\uac1c\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ucc98\uc74c\uc5d0 \uc720\ub098\uac00 \uac00\uc9c0\uace0 \uc788\ub358 \uad6c\uc2ac\uc740 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "유나는 가지고 있던 구슬 중에서 12개를 동생에게 주고 언니에게 5개를 받았습니다. 그다음 가지고 있던 구슬의 절반을 남준이에게 주고 윤기에게 3개를 받아서 17개가 되었습니다. 처음에 유나가 가지고 있던 구슬은 몇 개입니까?",
         "level": 3.0,
         "equation_op": "17 3 [OP_SUB] 2 [OP_MUL] 5 [OP_SUB] 12 [OP_ADD]",
         "answer": 35.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\uc5ec\ub7ec \uac1c \uc8fc\uace0 \ubc1b\uae30"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "여러 개 주고 받기"
     },
     "102": {
-        "question": "\ud0dc\ud615\uc774\ub294 \uad6d\uc5b4, \uc601\uc5b4, \uacfc\ud559\uc758 \ud3c9\uade0 \uc810\uc218\ub294 95\uc810\uc785\ub2c8\ub2e4. \ud0dc\ud615\uc774\uac00 \uc218\ud559 \uc2dc\ud5d8\uc744 \ubcf8 \ud6c4 \ud3c9\uade0 \uc810\uc218\uac00 3\uc810 \ub5a8\uc5b4\uc84c\ub2e4\uace0 \ud560 \ub54c, \ud0dc\ud615\uc774\uc758 \uc218\ud559 \uc810\uc218\ub294 \uba87 \uc810\uc785\ub2c8\uae4c?",
+        "question": "태형이는 국어, 영어, 과학의 평균 점수는 95점입니다. 태형이가 수학 시험을 본 후 평균 점수가 3점 떨어졌다고 할 때, 태형이의 수학 점수는 몇 점입니까?",
         "level": 5.0,
         "equation_op": "95 3 [OP_SUB] 4 [OP_MUL] 95 3 [OP_MUL] [OP_SUB]",
         "answer": 83.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc810\uc218"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "점수"
     },
     "103": {
-        "question": "\ub124 \uc790\ub9ac \uc218 5716\uc740 571A\ubcf4\ub2e4 \ud07d\ub2c8\ub2e4. A\ub294 \uc77c\uc758 \uc790\ub9ac \uc22b\uc790\uc774\uace0 A\uc5d0\ub294 0\ubd80\ud130 9\uae4c\uc9c0\uc758 \uc22b\uc790\ub97c \uc4f8 \uc218 \uc788\uc2b5\ub2c8\ub2e4. A\uc5d0 \uc4f8 \uc218 \uc788\ub294 \uc22b\uc790\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "네 자리 수 5716은 571A보다 큽니다. A는 일의 자리 숫자이고 A에는 0부터 9까지의 숫자를 쓸 수 있습니다. A에 쓸 수 있는 숫자는 모두 몇 개입니까?",
         "level": 3.0,
         "equation_op": "571A [OP_GEN_POSSIBLE_LIST] 5716 [OP_LIST_MORE] [OP_LIST_LEN]",
         "answer": 3.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\ubbf8\uc9c0\uc218 \uc790\ub9ac\uc218",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-2",
+        "category_big": "미지수 자리수",
+        "category_small": "기본"
     },
     "104": {
-        "question": "\ubbfc\uc601\uc774\uc758 \uad6d\uc5b4\uc640 \uc601\uc5b4 \ub450 \uacfc\ubaa9\uc758 \ud3c9\uade0 \uc810\uc218\ub294 89\uc810\uc785\ub2c8\ub2e4. \uad6d\uc5b4, \uc218\ud559, \uc601\uc5b4 \uc138 \uacfc\ubaa9\uc758 \ud3c9\uade0 \uc810\uc218\uac00 91\uc810\uc77c \ub54c, \ubbfc\uc601\uc774\uc758 \uc218\ud559 \uc810\uc218\ub294 \uba87 \uc810\uc785\ub2c8\uae4c?",
+        "question": "민영이의 국어와 영어 두 과목의 평균 점수는 89점입니다. 국어, 수학, 영어 세 과목의 평균 점수가 91점일 때, 민영이의 수학 점수는 몇 점입니까?",
         "level": 5.0,
         "equation_op": "91 3 [OP_MUL] 89 2 [OP_MUL] [OP_SUB]",
         "answer": 95.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uac1c\uc218",
-        "category_small": "\uc810\uc218"
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "점수"
     },
     "105": {
-        "question": "A\ub294 100\uac1c\uc529 \ubb36\uc74c\uc774 1\uac1c\uc640 10\uac1c\uc529 \ubb36\uc74c\uc774 23\uac1c\uc778 \uc218\uc785\ub2c8\ub2e4. B\ub294 172\uc5d0\uc11c 105\uc529 \ucee4\uc9c0\uac8c 4\ubc88 \ub6f0\uc5b4\uc11c \uc13c \uc218\uc785\ub2c8\ub2e4. A\uc640 B\uc758 \ud569\uc744 \uad6c\ud558\uc2dc\uc624.",
+        "question": "A는 100개씩 묶음이 1개와 10개씩 묶음이 23개인 수입니다. B는 172에서 105씩 커지게 4번 뛰어서 센 수입니다. A와 B의 합을 구하시오.",
         "level": 3.0,
         "equation_op": "100 1 [OP_MUL] 10 23 [OP_MUL] [OP_ADD] 172 105 4 [OP_MUL] [OP_ADD] [OP_ADD]",
         "answer": 922.0,
-        "qtype": "\uc218\ucc3e\uae30-2",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\ub6f0\uc5b4\uc11c"
+        "qtype": "수찾기-2",
+        "category_big": "연산",
+        "category_small": "뛰어서"
     },
     "106": {
-        "question": "1\uac1c\uc758 \ubb34\uac8c\uac00 50\uadf8\ub7a8(g)\uc778 \ub178\ub780\uc0c9 \uacf5\uc744 50\uac1c\uc529 \ub2f4\uc740 \uc0c1\uc790\uac00 5\uac1c \uc788\uc2b5\ub2c8\ub2e4. 1\uac1c\uc758 \ubb34\uac8c\uac00 45\uadf8\ub7a8(g)\uc778 \ud770\uc0c9 \uacf5\uc744 60\uac1c\uc529 \ub2f4\uc740 \uc0c1\uc790\uac00 6\uac1c \uc788\uc2b5\ub2c8\ub2e4. \ub610 1\uac1c\uc758 \ubb34\uac8c\uac00 55\uadf8\ub7a8(g)\uc778 \ud30c\ub780\uc0c9 \uacf5\uc744 40\uac1c\uc529 \ub2f4\uc740 \uc0c1\uc790\uac00 4\uac1c \uc788\uc2b5\ub2c8\ub2e4. \ube48 \uc0c1\uc790\uc758 \ubb34\uac8c\ub294 \ubaa8\ub450 \uac19\uc2b5\ub2c8\ub2e4. \ud55c \uc0c1\uc790\uc758 \ubb34\uac8c\uac00 \uac00\uc7a5 \uac00\ubcbc\uc6b4 \uc0c1\uc790 \uc548\uc5d0 \ub4e4\uc5b4 \uc788\ub294 \uacf5\uc758 \uc0c9\uae54\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?",
+        "question": "1개의 무게가 50그램(g)인 노란색 공을 50개씩 담은 상자가 5개 있습니다. 1개의 무게가 45그램(g)인 흰색 공을 60개씩 담은 상자가 6개 있습니다. 또 1개의 무게가 55그램(g)인 파란색 공을 40개씩 담은 상자가 4개 있습니다. 빈 상자의 무게는 모두 같습니다. 한 상자의 무게가 가장 가벼운 상자 안에 들어 있는 공의 색깔은 무엇입니까?",
         "level": 5.0,
-        "equation_op": "[OP_LIST_SOL] \ub178\ub780\uc0c9 \ud770\uc0c9 \ud30c\ub780\uc0c9 [OP_LIST_EOL] [OP_LIST_SOL] 50 50 [OP_MUL] 45 60 [OP_MUL] 55 40 [OP_MUL] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
-        "answer": "\ud30c\ub780\uc0c9",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 노란색 흰색 파란색 [OP_LIST_EOL] [OP_LIST_SOL] 50 50 [OP_MUL] 45 60 [OP_MUL] 55 40 [OP_MUL] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "파란색",
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "107": {
-        "question": "\ub124 \uc790\ub9ac \uc218 14AB\ub294 9\ub85c \ub098\ub204\uc5b4\ub5a8\uc5b4\uc9c0\ub294 \uc218\uc785\ub2c8\ub2e4. A, B\ub294 0\ubd80\ud130 9\uae4c\uc9c0\uc758 \uc11c\ub85c \ub2e4\ub978 \uc218\uc77c \ub54c 14AB\uac00 \ub420 \uc218 \uc788\ub294 \uc218\ub294 \ubaa8\ub450 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "네 자리 수 14AB는 9로 나누어떨어지는 수입니다. A, B는 0부터 9까지의 서로 다른 수일 때 14AB가 될 수 있는 수는 모두 몇 개입니까?",
         "level": 5.0,
         "equation_op": "14AB [OP_GEN_POSSIBLE_LIST] 9 [OP_LIST_DIVISIBLE] [OP_LIST_LEN]",
         "answer": 11.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\ubbf8\uc9c0\uc218 \uc790\ub9ac\uc218",
-        "category_small": "\uc870\uac74"
+        "qtype": "조합",
+        "category_big": "미지수 자리수",
+        "category_small": "조건"
     },
     "108": {
-        "question": "\uc218\ud638\ub294 \ubbfc\uc601\uc774\ubcf4\ub2e4 \ud0a4\uac00 \ud07d\ub2c8\ub2e4. \uc131\uc8fc\ub294 \ubbfc\uc601\uc774\ubcf4\ub2e4 \ud0a4\uac00 \uc791\uc2b5\ub2c8\ub2e4. \uc131\uc8fc\ub294 \uc120\ubbf8\ubcf4\ub2e4 \ud0a4\uac00 \ud07d\ub2c8\ub2e4. \ud0a4\uac00 \uac00\uc7a5 \uc791\uc740 \uc0ac\ub78c\uc740 \ub204\uad6c\uc785\ub2c8\uae4c?",
+        "question": "수호는 민영이보다 키가 큽니다. 성주는 민영이보다 키가 작습니다. 성주는 선미보다 키가 큽니다. 키가 가장 작은 사람은 누구입니까?",
         "level": 2.0,
-        "equation_op": "[OP_LIST_SOL] \uc218\ud638 \ubbfc\uc601 \uc131\uc8fc \uc120\ubbf8 [OP_LIST_EOL] [OP_LIST_SOL] \uc218\ud638 \ubbfc\uc601 > \uc131\uc8fc \ubbfc\uc601 < \uc131\uc8fc \uc120\ubbf8 > [OP_LIST_EOL] [OP_LIST_COND_MAX_MIN] 2 [OP_LIST_GET]",
-        "answer": "\uc120\ubbf8",
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 수호 민영 성주 선미 [OP_LIST_EOL] [OP_LIST_SOL] 수호 민영 > 성주 민영 < 성주 선미 > [OP_LIST_EOL] [OP_LIST_COND_MAX_MIN] 2 [OP_LIST_GET]",
+        "answer": "선미",
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "109": {
-        "question": "\uc5b4\ub5a4 \uc218\ub294 2\uc640 5 \uc0ac\uc774\uc5d0 \uc788\uace0, 4\ubcf4\ub2e4 \uc791\uc740 \ud55c \uc790\ub9ac \uc218\uc785\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수는 2와 5 사이에 있고, 4보다 작은 한 자리 수입니다. 어떤 수를 구하시오.",
         "level": 1.0,
         "equation_op": "2 1 [OP_ADD] 5 1 [OP_SUB] 1 [OP_LIST_ARANGE] 4 [OP_LIST_LESS] 1 [OP_LIST_GET]",
         "answer": 3.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\ubc94\uc704",
-        "category_small": "\uc5b4\ub5a4 \uc218"
+        "qtype": "수찾기-1",
+        "category_big": "범위",
+        "category_small": "어떤 수"
     },
     "110": {
-        "question": "\uba74\uc758 \uc218\uc640 \uaf2d\uc9d3\uc810\uc758 \uc218\uc758 \ud569\uc774 16\uac1c\uc778 \uac01\ubfd4\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uac01\ubfd4\uc758 \ubaa8\uc11c\ub9ac\uc758 \uc218\ub294 \uba87 \uac1c\uc785\ub2c8\uae4c?",
+        "question": "면의 수와 꼭짓점의 수의 합이 16개인 각뿔이 있습니다. 이 각뿔의 모서리의 수는 몇 개입니까?",
         "level": 6.0,
         "equation_op": "16 2 [OP_DIV] 1 [OP_SUB] 2 [OP_MUL]",
         "answer": 14.0,
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ub3c4\ud615\uc758 \ud2b9\uc131",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "도형의 특성",
+        "category_small": "기본"
     },
     "111": {
-        "question": "\uc815\uad6d\uc774\ub294 \ub2ec\ub9ac\uae30 \uc2dc\ud569\uc5d0\uc11c 5\ub4f1\uc744 \ud588\uc2b5\ub2c8\ub2e4. \uacb0\uc2b9\uc120\uc5d0 \uc815\uad6d\uc774\ubcf4\ub2e4 \ube68\ub9ac \ub4e4\uc5b4\uc628 \uc0ac\ub78c\uc740 \ubaa8\ub450 \uba87 \uba85\uc785\ub2c8\uae4c?",
+        "question": "정국이는 달리기 시합에서 5등을 했습니다. 결승선에 정국이보다 빨리 들어온 사람은 모두 몇 명입니까?",
         "level": 1.0,
         "equation_op": "5 1 [OP_SUB]",
         "answer": 4.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "112": {
-        "question": "\uc0ac\uacfc, \ubcf5\uc22d\uc544, \ubc30, \ucc38\uc678, \uade4 \uc911\uc5d0\uc11c \uc11c\ub85c \ub2e4\ub978 2\uac00\uc9c0 \uacfc\uc77c\uc744 \uace8\ub77c\uc11c \uc0ac\ub294 \uacbd\uc6b0\ub294 \ubaa8\ub450 \uba87 \uac00\uc9c0\uc785\ub2c8\uae4c?",
+        "question": "사과, 복숭아, 배, 참외, 귤 중에서 서로 다른 2가지 과일을 골라서 사는 경우는 모두 몇 가지입니까?",
         "level": 6.0,
-        "equation_op": "[OP_LIST_SOL] \uc0ac\uacfc \ubcf5\uc22d\uc544 \ubc30 \ucc38\uc678 \uade4 [OP_LIST_EOL] [OP_LIST_LEN] 2 [OP_COMB]",
+        "equation_op": "[OP_LIST_SOL] 사과 복숭아 배 참외 귤 [OP_LIST_EOL] [OP_LIST_LEN] 2 [OP_COMB]",
         "answer": 10.0,
-        "qtype": "\uc870\ud569",
-        "category_big": "\uc5ec\ub7ec \uc218",
-        "category_small": "\uc790\uc5f0\uc5b4"
+        "qtype": "조합",
+        "category_big": "여러 수",
+        "category_small": "자연어"
     },
     "113": {
-        "question": "\uae38\uc774\uac00 400\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc778 \ud14c\uc774\ud504 5\uac1c\ub97c \uae38\uac8c \uc774\uc5b4 \ubd99\uc600\ub354\ub2c8 \uc804\uccb4\uc758 \uae38\uc774\uac00 1904\uc13c\ud2f0\ubbf8\ud130(\u339d)\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uacb9\uccd0\uc9c4 \uac01 \ubd80\ubd84\uc758 \uae38\uc774\ub294 \ubaa8\ub450 \uac19\ub2e4\uace0 \ud560 \ub54c, \uacb9\uccd0\uc9c4 \ud55c \ubd80\ubd84\uc758 \uae38\uc774\ub294 \uba87 \ubc00\ub9ac\ubbf8\ud130(\u339c)\uc785\ub2c8\uae4c?",
+        "question": "길이가 400센티미터(㎝)인 테이프 5개를 길게 이어 붙였더니 전체의 길이가 1904센티미터(㎝)가 되었습니다. 겹쳐진 각 부분의 길이는 모두 같다고 할 때, 겹쳐진 한 부분의 길이는 몇 밀리미터(㎜)입니까?",
         "level": 4.0,
         "equation_op": "400 5 [OP_MUL] 1904 [OP_SUB] 4 [OP_DIV]",
         "answer": 24.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ub048\uc758 \uae38\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "끈의 길이",
+        "category_small": "기본"
     },
     "114": {
-        "question": "\ud638\ud604\uc774\ub294 \ud0a4\uac00 162\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc774\uace0 \uc2ac\uae30\ub294 \ud0a4\uac00 159\uc13c\ud2f0\ubbf8\ud130(\u339d)\uc785\ub2c8\ub2e4. \ud0a4\uac00 \ub354 \ud070 \uc0ac\ub78c\uc740 \ub204\uad6c\uc785\ub2c8\uae4c?",
+        "question": "호현이는 키가 162센티미터(㎝)이고 슬기는 키가 159센티미터(㎝)입니다. 키가 더 큰 사람은 누구입니까?",
         "level": 2.0,
-        "equation_op": "[OP_LIST_SOL] \ud638\ud604 \uc2ac\uae30 [OP_LIST_EOL] [OP_LIST_SOL] 162 159 [OP_LIST_EOL] 1 [OP_LIST_MAX] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
-        "answer": "\ud638\ud604",
-        "qtype": "\ud06c\uae30\ube44\uad50",
-        "category_big": "\ud06c\uae30\ube44\uad50",
-        "category_small": "\uae30\ubcf8"
+        "equation_op": "[OP_LIST_SOL] 호현 슬기 [OP_LIST_EOL] [OP_LIST_SOL] 162 159 [OP_LIST_EOL] 1 [OP_LIST_MAX] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "호현",
+        "qtype": "크기비교",
+        "category_big": "크기비교",
+        "category_small": "기본"
     },
     "115": {
-        "question": "\uc5b4\ub5a4 \uc218\uc5d0\uc11c 23\uc744 \ube7c\uc57c \ud558\ub294\ub370 \uc798\ubabb\ud558\uc5ec 32\ub97c \ube90\ub354\ub2c8 25\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc14\ub974\uac8c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수에서 23을 빼야 하는데 잘못하여 32를 뺐더니 25가 되었습니다. 바르게 계산한 결과를 구하시오.",
         "level": 2.0,
         "equation_op": "25 32 [OP_ADD] 23 [OP_SUB]",
         "answer": 34.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0 \uc624\ub958",
-        "category_small": "\ubc14\ub974\uac8c \uacc4\uc0b0"
+        "qtype": "수찾기-3",
+        "category_big": "연산 오류",
+        "category_small": "바르게 계산"
     },
     "116": {
-        "question": "\uc790\ub3d9\ucc28 20\ub300\uac00 \ud55c \uc904\ub85c \uc8fc\ucc28\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uac80\uc740\uc0c9 \uc790\ub3d9\ucc28\ub294 \uc624\ub978\ucabd\uc5d0\uc11c 16\ubc88\uc9f8\uc5d0 \uc788\uace0, \ud770\uc0c9 \uc790\ub3d9\ucc28\ub294 \uc67c\ucabd\uc5d0\uc11c 11\ubc88\uc9f8\uc5d0 \uc788\uc2b5\ub2c8\ub2e4. \uac80\uc740\uc0c9 \uc790\ub3d9\ucc28\uc640 \ud770\uc0c9 \uc790\ub3d9\ucc28 \uc0ac\uc774\uc5d0 \uc788\ub294 \uc790\ub3d9\ucc28\ub294 \uba87 \ub300\uc785\ub2c8\uae4c?",
+        "question": "자동차 20대가 한 줄로 주차되어 있습니다. 검은색 자동차는 오른쪽에서 16번째에 있고, 흰색 자동차는 왼쪽에서 11번째에 있습니다. 검은색 자동차와 흰색 자동차 사이에 있는 자동차는 몇 대입니까?",
         "level": 3.0,
         "equation_op": "16 11 [OP_ADD] 20 [OP_SUB] 2 [OP_SUB]",
         "answer": 5.0,
-        "qtype": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_big": "\uc21c\uc11c\uc815\ud558\uae30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "순서정하기",
+        "category_big": "순서정하기",
+        "category_small": "기본"
     },
     "117": {
-        "question": "\uc5b4\ub5a4 \uc218\ub97c 6\uc73c\ub85c \ub098\ub204\uc5c8\ub354\ub2c8 26\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수를 6으로 나누었더니 26이 되었습니다. 어떤 수를 구하시오.",
         "level": 3.0,
         "equation_op": "26 6 [OP_MUL]",
         "answer": 156.0,
-        "qtype": "\uc218\ucc3e\uae30-3",
-        "category_big": "\uc5f0\uc0b0",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "수찾기-3",
+        "category_big": "연산",
+        "category_small": "기본"
     },
     "118": {
-        "question": "6\uba85\uc529 \ud300\uc744 \ub9cc\ub4e4\uc5b4 \uac8c\uc784\uc744 \ud558\ub824\uace0 \ud569\ub2c8\ub2e4. \ud559\uc0dd\uc774 \ubaa8\ub450 72\uba85\uc774\ub77c\uba74 \uba87 \ud300\uc744 \ub9cc\ub4e4 \uc218 \uc788\uc2b5\ub2c8\uae4c?",
+        "question": "6명씩 팀을 만들어 게임을 하려고 합니다. 학생이 모두 72명이라면 몇 팀을 만들 수 있습니까?",
         "level": 2.0,
         "equation_op": "72 6 [OP_FDIV]",
         "answer": 12.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\ubd84\ubc30",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "산술",
+        "category_big": "분배",
+        "category_small": "기본"
     },
     "119": {
-        "question": "\uc6d0 \ubaa8\uc591\uc758 \uaf43\ubc2d\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc6d0\uc8fc\uc728\uc774 3\uc774\uace0 \uaf43\ubc2d\uc758 \ubc18\uc9c0\ub984\uc774 0.6\ubbf8\ud130(m)\uc77c \ub54c \uaf43\ubc2d\uc758 \ub113\uc774\ub294 \uba87 \uc81c\uacf1\uc13c\ud2f0\ubbf8\ud130\uc785\ub2c8\uae4c?",
+        "question": "원 모양의 꽃밭이 있습니다. 원주율이 3이고 꽃밭의 반지름이 0.6미터(m)일 때 꽃밭의 넓이는 몇 제곱센티미터입니까?",
         "level": 6.0,
         "equation_op": "3 0.6 2 [OP_POW] [OP_MUL]",
         "answer": "1.08",
-        "qtype": "\ub3c4\ud615",
-        "category_big": "\ub113\uc774",
-        "category_small": "\uae30\ubcf8"
+        "qtype": "도형",
+        "category_big": "넓이",
+        "category_small": "기본"
     },
     "120": {
-        "question": "\uc5b4\ub5a4 \uc218\ub294 18\ubcf4\ub2e4 \uc791\uc9c0\ub9cc 3\uc758 \ubc30\uc218\uac00 \uc544\ub2d9\ub2c8\ub2e4. 12, 14, 15, 20 \uc911\uc5d0\uc11c \uc5b4\ub5a4 \uc218\ub97c \uad6c\ud558\uc2dc\uc624.",
+        "question": "어떤 수는 18보다 작지만 3의 배수가 아닙니다. 12, 14, 15, 20 중에서 어떤 수를 구하시오.",
         "level": 3.0,
         "equation_op": "[OP_LIST_SOL] 12 14 15 20 [OP_LIST_EOL] 3 [OP_LIST_DIVISIBLE] [OP_SET_DIFFERENCE] 18 [OP_LIST_LESS] 1 [OP_LIST_GET]",
         "answer": 14.0,
-        "qtype": "\uc218\ucc3e\uae30-1",
-        "category_big": "\ubc94\uc704",
-        "category_small": "\uc5b4\ub5a4 \uc218"
+        "qtype": "수찾기-1",
+        "category_big": "범위",
+        "category_small": "어떤 수"
     },
     "121": {
-        "question": "\uc720\uc815\uc774\ub294 \uc0c9\uc885\uc774\ub97c 210\uc7a5 \uac00\uc9c0\uace0 \uc788\uc5c8\uc2b5\ub2c8\ub2e4. \uc720\uc815\uc774\uac00 \uc720\ub098\uc5d0\uac8c \uc0c9\uc885\uc774\ub97c 30\uc7a5 \uc8fc\uc5c8\ub354\ub2c8 \uc720\uc815\uc774\uac00 \uc720\ub098\ubcf4\ub2e4 50\uc7a5 \ub354 \ub9ce\uac8c \ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ucc98\uc74c\uc5d0 \uc720\ub098\uac00 \uac00\uc9c0\uace0 \uc788\ub358 \uc0c9\uc885\uc774\ub294 \uba87 \uc7a5\uc785\ub2c8\uae4c?",
+        "question": "유정이는 색종이를 210장 가지고 있었습니다. 유정이가 유나에게 색종이를 30장 주었더니 유정이가 유나보다 50장 더 많게 되었습니다. 처음에 유나가 가지고 있던 색종이는 몇 장입니까?",
         "level": 3.0,
         "equation_op": "210 30 [OP_SUB] 50 [OP_SUB] 30 [OP_SUB]",
         "answer": 100.0,
-        "qtype": "\uc0b0\uc220",
-        "category_big": "\uc8fc\uace0 \ubc1b\uae30",
-        "category_small": "\ub450 \uac1c \uc8fc\uace0 \ubc1b\uae30"
+        "qtype": "산술",
+        "category_big": "주고 받기",
+        "category_small": "두 개 주고 받기"
     }
 }
