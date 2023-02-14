@@ -1,0 +1,11 @@
+{
+    "1": {
+        "question": "빵이 58개 있습니다. 빵은 우유보다 18개 더 많고, 과자보다 27개 더 적습니다. 빵, 우유, 과자는 모두 몇 개입니까?",
+        "level": 2.0,
+        "equation_op": "58 58 18 [OP_SUB] [OP_ADD] 58 27 [OP_ADD] [OP_ADD]",
+        "answer": 183.0,
+        "qtype": "산술",
+        "category_big": "개수",
+        "category_small": "기본"
+    }
+}
