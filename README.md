@@ -13,22 +13,22 @@ Korean math word problem dataset for AGC-3
 데이터 예시
 --------
 ```
-    "1": {
-        "question": "윤기, 정국, 유나, 유정 4명의 학생은 각각 7, 6, 9, 8번을 가지고있다. 2번째로 작은 숫자는 누구입니까?",
-        "equation_op": "[OP_LIST_SOL] 윤기 정국 유나 유정 [OP_LIST_EOL] [OP_LIST_SOL] 7 6 9 8 [OP_LIST_EOL] 2 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+    "24": {
+        "question": "그녀는 연준의 사과 농장에서 8,536개의 사과를 수확했습니다. 이 사과 30개를 한 상자에 포장하고 싶습니다. 사과 30개가 들어 있는 상자는 몇 개입니까?",
+        "equation_op": "8536 30 [OP_FDIV]",
         "answer": "",
-        "qtype": "6"
+        "qtype": "0"
     },
-    "2": {
-        "question": "1부터 9까지의 숫자는 한 번만 사용하여 9자리 숫자를 형성합니다. 그 숫자가 55로 나누어 떨어지면 가장 작은 9자리 숫자를 찾으십시오.",
-        "equation_op": "1 9 1 [OP_LIST_ARANGE] 9 [OP_LIST_GET_PERM] 55 [OP_LIST_DIVISIBLE] 1 [OP_LIST_MIN]",
+    "25": {
+        "question": "유정이 이모는 조카 윤기에게 당근을 3개 주었습니다. 윤기의 누나는 4개를 받았지만, 다시 윤기에게 2개를 주었습니다. 윤기가 가진 당근은 몇 개입니까?",
+        "equation_op": "3 2 [OP_ADD]",
         "answer": "",
-        "qtype": "5"
+        "qtype": "9"
     },
-    "3": {
-        "question": "가로 10 센티미터(cm), 세로 8 센티미터(cm), 높이 5 센티미터(cm)의 직육면체 모서리 길이의 합계는 몇 센티미터(cm)입니까?",
-        "equation_op": "10 4 [OP_MUL] 8 4 [OP_MUL] [OP_ADD] 5 4 [OP_MUL] [OP_ADD]",
+    "26": {
+        "question": "이등변삼각형의 꼭짓점의 이등분선을 그릴 때 밑변의 길이가 4센티미터(㎝)라면 밑변의 길이는 몇 센티미터(㎝)입니까?",
+        "equation_op": "4 2 [OP_MUL]",
         "answer": "",
-        "qtype": ""
+        "qtype": "7"
     }
 ```
