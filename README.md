@@ -7,6 +7,7 @@ Korean math word problem dataset for AGC-3
 ## 데이터 구성
 
 데이터는 json 형식의 dictionary로 이루어져 있습니다.
+
 한국어 수학 서술형 문제와 해당 문제에 대한 본 연구진이 제안한 equation으로 이루어져 있습니다.
 
 데이터 예시
