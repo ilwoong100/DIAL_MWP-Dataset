@@ -1,0 +1,362 @@
+{
+    "1": {
+        "question": "3시를 가리키던 시계가 있다. 이후 분침이 시침을 처음으로 지날 때의 시각은 몇시 인가?",
+        "level": -1.0,
+        "equation_op": "3 3 30 [OP_MUL] 6 0.5 [OP_SUB] [OP_DIV] 60 [OP_DIV] [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "2": {
+        "question": "한영이는 85분 동안 숙제를 하였습니다. 한영이가 숙제를 한 시간은 몇 시간 25분입니까?",
+        "level": -1.0,
+        "equation_op": "85 60 [OP_FDIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "3": {
+        "question": "작은 바늘이 6과 7사이를 가리키고 큰 바늘이 3보다 2칸 더 간 눈금을 가리키고 있다면 지금은 5시에서 몇분 후입니까?",
+        "level": -1.0,
+        "equation_op": "3 2 [OP_ADD] 5 [OP_MUL] 6 5 [OP_SUB] 60 [OP_MUL] [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "4": {
+        "question": "12시와 1시 사이에 시침과 분침이 90도의 각도를 이루는 시각이 2번 있다. 두 시각의 차는 몇분 인가?",
+        "level": -1.0,
+        "equation_op": "12 12 [OP_MOD] 30 [OP_MUL] 270 [OP_ADD] 6 0.5 [OP_SUB] [OP_DIV] 12 12 [OP_MOD] 30 [OP_MUL] 90 [OP_ADD] 6 0.5 [OP_SUB] [OP_DIV] [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "5": {
+        "question": "긴 바늘이 10을 가리키고 있습니다. 몇 분입니까?",
+        "level": -1.0,
+        "equation_op": "10.0",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "6": {
+        "question": "현수가 타려고 하는 열차의 배차간격은 15분이다. 현수가 열차를 타러 역에 갔더니 5분전에 열차가 역에서 출발했었다면 현수는 몇분 뒤에 다음 열차를 탈 수 있는가?",
+        "level": -1.0,
+        "equation_op": "15 5 [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "7": {
+        "question": "하루에 1분 30초씩 빨라지는 시계가 있습니다. 이 시계를 오전 1시에 정확하게 맞추어 놓았습니다. 3일 후 오전 1시에 이 시계는 오전 1시 몇 분을 가리키겠습니까?",
+        "level": -1.0,
+        "equation_op": "1 60 [OP_MUL] 30 [OP_ADD] 3 [OP_MUL] 60 [OP_FDIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "8": {
+        "question": "진수는 5시 45분에 미술관에 입장하여 1시간 20분 동안 관람하고 나왔습니다. 진수가 미술관에서 나온 시간에 분침이 가리키는 숫자를 구하시오.",
+        "level": -1.0,
+        "equation_op": "45 20 [OP_ADD] 60 [OP_SUB] 5 [OP_DIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "9": {
+        "question": "철수가 학교까지 가는데 걸리는 시간은 1시간, 영희가 학교까지 가는데 걸리는 시간은 2시간이다. 철수는 5시, 영희는 3시에 출발했다면 학교에 더 빨리 도착한 사람은 누구인가?",
+        "level": -1.0,
+        "equation_op": "[OP_LIST_SOL] 철수 영희 [OP_LIST_EOL] [OP_LIST_SOL] 1 5 [OP_ADD] 2 3 [OP_ADD] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "10": {
+        "question": "재현이는 2시간 45분 동안 야구 경기를 관람하였습니다. 재현이가 야구 경기를 관람한 시간은 몇 분일까요?",
+        "level": -1.0,
+        "equation_op": "2 60 [OP_MUL] 45 [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "11": {
+        "question": "긴 바늘이 12를 가리키고, 짧은 바늘이 4를 가리키고 있습니다. 몇 시입니까?",
+        "level": -1.0,
+        "equation_op": "4.0",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "12": {
+        "question": "3시와 4시 사이에서 시침과 분침이 일치하는 시간은 3시 몇분인지 구하시오.",
+        "level": -1.0,
+        "equation_op": "360 12 [OP_DIV] 3 [OP_MUL] 360 60 [OP_DIV] 360 12 [OP_DIV] 60 [OP_DIV] [OP_SUB] [OP_DIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "13": {
+        "question": "웅이는 시침이 1을 가리킬 때 점심을 먹으러 나갔다. 갔다와서 시계를 보니 시침이 2와 3 사이, 분침이 6을 가리키고 있었다. 웅이가 밥먹는데 걸린 시간은 몇분 인가?",
+        "level": -1.0,
+        "equation_op": "2 60 [OP_MUL] 6 5 [OP_MUL] [OP_SUM] 1 60 [OP_MUL] [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "14": {
+        "question": "한영이는 85분 동안 숙제를 하였습니다. 한영이가 숙제를 한 시간은 1시간 몇 분입니까?",
+        "level": -1.0,
+        "equation_op": "85 85 60 [OP_FDIV] 60 [OP_MUL] [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "15": {
+        "question": "태선이가 1시 10분에 운동을 시작해서 2시 5분에 운동을 마쳤을 때, 태선이가 운동을 하는데 걸린 시간은 몇 분인가?",
+        "level": -1.0,
+        "equation_op": "2 60 [OP_MUL] 5 [OP_ADD] 1 60 [OP_MUL] [OP_SUB] 10 [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "16": {
+        "question": "재현이는 3시간 20분 동안 야구 경기를 관람하였습니다. 재현이가 야구 경기를 관람한 시간은 몇 분입니까?",
+        "level": -1.0,
+        "equation_op": "3 60 [OP_MUL] 20 [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "17": {
+        "question": "시계의 짧은 바늘이 12와 1 사이에 있고, 긴 바늘이 5에 있을 때의 시각은 12시 몇 분일까요?",
+        "level": -1.0,
+        "equation_op": "5 5 [OP_MUL]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "18": {
+        "question": "긴 바늘이 12를 가리키고, 짧은 바늘이 2를 가리키고 있습니다. 몇 시입니까?",
+        "level": -1.0,
+        "equation_op": "2.0",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "19": {
+        "question": "학교에서 식당까지 가는데 걸리는 시간은 50분, 식당에서 집까지 가는데 걸리는 시간은 1시간 30분이다. 영희가 학교를 나와 식당을 거쳐 집까지 왔다면 학교에서 집까지 오는데 걸린 시간은 몇 시간 인가?",
+        "level": -1.0,
+        "equation_op": "50 60 [OP_DIV] 1 [OP_ADD] 30 60 [OP_DIV] [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "20": {
+        "question": "시계의 짧은 바늘이 3과 4 사이에 있고, 긴 바늘이 8에서 눈금 1칸만큼 더 간 곳을 가리키고 있을 때의 시각은 3시 몇 분 일까요?",
+        "level": -1.0,
+        "equation_op": "8 5 [OP_MUL] 1 [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "21": {
+        "question": "수도꼭지를 통해 15리터 짜리 물통을 채우는 데 5분이 걸린다고 할 때 6리터 크기의 물통을 채우는 데 걸리는 시간은 몇 분인가?",
+        "level": -1.0,
+        "equation_op": "15 5 [OP_DIV] 6 [OP_MUL]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "22": {
+        "question": "9시와 10시 사이에 시계의 분침과 시침이 180도의 각도를 이루는 시각은 몇시 입니까?",
+        "level": -1.0,
+        "equation_op": "9 30 [OP_MUL] 180 [OP_SUB] 6 0.5 [OP_SUB] [OP_DIV] 60 [OP_DIV] 9 [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "23": {
+        "question": "진우가 6시간 후에 일어나기 위해 알람을 9시로 맞췄다. 지금은 몇시 인가?",
+        "level": -1.0,
+        "equation_op": "9 6 [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "24": {
+        "question": "1시간에 1분씩 빨라지는 시계가 있습니다. 이 시계의 시각을 오전 8시에 정확하게 맞추었습니다. 내일 오전 9시에 이 시계가 가리키는 시각은 8시 몇 분일까요?",
+        "level": -1.0,
+        "equation_op": "24 9 [OP_ADD] 8 [OP_SUB] 1 [OP_MUL]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "25": {
+        "question": "현재 시각은 7시 인데 태호가 가지고 있는 고장난 시계는 6시 57분을 가리키고 있습니다. 태호의 시계는 몇분 느린 시계일까요?",
+        "level": -1.0,
+        "equation_op": "60 57 [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "26": {
+        "question": "일웅이는 서윤이보다 2배 빠르게 일을 할 수 있다. 서윤이가 4시간만에 일을 완료했다면, 일웅이는 몇 시간 걸리겠는가?",
+        "level": -1.0,
+        "equation_op": "4 2 [OP_DIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "27": {
+        "question": "60m 수영 레인이 있다. 영희가 갈 때는 초당 4m의 속력으로 갔지만 올 때는 초당 2m의 속력으로 돌아왔다. 한번 왕복하는데 걸린 시간은 몇 초인가?",
+        "level": -1.0,
+        "equation_op": "60 4 [OP_DIV] 60 2 [OP_DIV] [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "28": {
+        "question": "주봉이는 10분 동안 수학문제를 5문제 풀 수 있다. 2시간 동안 주봉이는 몇 문제를 풀 수 있겠는가",
+        "level": -1.0,
+        "equation_op": "2 60 [OP_MUL] 10 [OP_DIV] 5 [OP_MUL]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "29": {
+        "question": "지금으로부터 3시간 15분 후의 시각은 1시 20분이다. 지금 시각은 몇시인가?",
+        "level": -1.0,
+        "equation_op": "1 60 [OP_MUL] 20 [OP_ADD] 3 60 [OP_MUL] 15 [OP_ADD] [OP_SUB] 12 60 [OP_MUL] [OP_ADD] 60 [OP_DIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "30": {
+        "question": "5분에 한번씩 울리는 알람시계가 있다. 철수가 알람을 7시로 맞춰놓고 알람소리가 3번 울렸을 때 일어났다면 철수가 일어난 시각은 몇시인가?",
+        "level": -1.0,
+        "equation_op": "5 3 1 [OP_SUB] [OP_MUL] 60 [OP_DIV] 7 [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "31": {
+        "question": "시침이 1을 가리키고 있었다. 분침이 6으로 처음 갔을 때, 몇시 인가?",
+        "level": -1.0,
+        "equation_op": "6 5 [OP_MUL] 60 [OP_DIV] 1 [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "32": {
+        "question": "혜진이네 학교는 오전 9시에 1교시 수업을 시작하여 40분 동안 수업을 하고 10분 동안 쉽니다. 3교시 수업이 시작되는 시각은 몇 시 40분입니까?",
+        "level": -1.0,
+        "equation_op": "9 40 10 [OP_ADD] 2 [OP_MUL] 60 [OP_FDIV] [OP_ADD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "33": {
+        "question": "민서는 1시간 40분 동안 영화를 봤습니다. 영화가 끝난 시각이 5시 30분이라면 영화가 시작된 시각은 몇 시 50분입니까?",
+        "level": -1.0,
+        "equation_op": "5 60 [OP_MUL] 30 [OP_ADD] 1 60 [OP_MUL] 40 [OP_ADD] [OP_SUB] 60 [OP_FDIV]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "34": {
+        "question": "웅이는 일을 오전 7시부터 22시간 동안 하였다. 현재 시각은 몇시 인가?",
+        "level": -1.0,
+        "equation_op": "7 22 [OP_ADD] 12 [OP_MOD]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "35": {
+        "question": "4시 30분일 때 작은각의 크기를 구하시오.",
+        "level": -1.0,
+        "equation_op": "360 60 [OP_DIV] 30 [OP_MUL] 360 12 [OP_DIV] 4 [OP_MUL] 360 12 [OP_DIV] 60 [OP_DIV] 30 [OP_MUL] [OP_ADD] [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "36": {
+        "question": "지훈, 서진, 민정이가 동시에 숙제를 시작했습니다. 지훈이는 5시 30분에, 서진이는 5시에, 민정이는 6시 30분에 숙제를 끝냈습니다. 숙제를 가장 일찍 끝낸 사람은 누구입니까?",
+        "level": -1.0,
+        "equation_op": "[OP_LIST_SOL] 지훈 서진 민정 [OP_LIST_EOL] [OP_LIST_SOL] 5 60 [OP_MUL] 30 [OP_ADD] 5 60 [OP_MUL] 6 60 [OP_MUL] 30 [OP_ADD] [OP_LIST_EOL] 1 [OP_LIST_MIN] [OP_LIST_INDEX] [OP_LIST_POP] [OP_LIST_GET]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "37": {
+        "question": "1시간에 1분씩 빨라지는 시계가 있습니다. 이 시계의 시각을 오늘 오전 10시에 정확하게 맞추었습니다. 내일 오후 11시에 이 시계가 가리키는 시각은 11시 몇 분입니까?",
+        "level": -1.0,
+        "equation_op": "24 12 [OP_ADD] 11 [OP_ADD] 10 [OP_SUB] 1 [OP_MUL]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "38": {
+        "question": "민혁이는 오전 9시부터 오후 4시까지 일을 하였다. 민혁이는 몇시간 일을 하였는가?",
+        "level": -1.0,
+        "equation_op": "4 12 [OP_ADD] 9 [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "39": {
+        "question": "10시와 11시 사이에 시계의 분침과 시침이 일치하는 시각은 11시에서 몇분 전 입니까?",
+        "level": -1.0,
+        "equation_op": "60 10 30 [OP_MUL] 6 0.5 [OP_SUB] [OP_DIV] [OP_SUB]",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    },
+    "40": {
+        "question": "짧은 바늘이 2와 3 사이에 있습니다. 몇 시입니까?",
+        "level": -1.0,
+        "equation_op": "2.0",
+        "answer": "",
+        "qtype": "시간",
+        "category_big": "시간",
+        "category_small": "시간"
+    }
+}
